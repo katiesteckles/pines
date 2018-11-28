@@ -46,7 +46,7 @@ def reset():
 def update():
     global arrowrow, arrowcol, game
     clearanddraw()
-    print(game.is_a_set or game.not_a_set)
+    # print(game.is_a_set or game.not_a_set)
     if game.is_over:
         text = 'End of game!'
     elif game.is_a_set:
