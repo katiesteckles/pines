@@ -39,11 +39,11 @@ def write_one_game(url):
 
             answers = []
             correct = 0
-            title = question['text']
+            title = sanitise(question['text'])
             question_number = question['question_number']
             # loop through all answers, store the correct one
             for i, ans in enumerate(question['answers']):
-                answers.append(ans['text'])
+                answers.append(sanitise(ans['text']))
                 if ans['correct']:
                     correct = i
 
@@ -53,6 +53,10 @@ def write_one_game(url):
 
 def is_valid_question(question):
     return 'category_slug' in question and 'text' in question and 'answers' in question and 'question_number' in question
+
+
+def sanitise(text):
+    return text.replace('"', "'")
 
 def write_data():
     for category in categorised_qs:
