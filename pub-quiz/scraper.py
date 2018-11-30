@@ -3,8 +3,11 @@ import requests
 import codecs
 from bs4 import BeautifulSoup
 import json
+from datetime import date, timedelta
 
 categorised_qs = {}
+
+
 def write_one_game(url):
     """
     Writes one game to the file
@@ -58,6 +61,7 @@ def is_valid_question(question):
 def sanitise(text):
     return text.replace('"', "'")
 
+
 def write_data():
     for category in categorised_qs:
         f = codecs.open('questions/' + category + '.csv', 'w', 'utf-8')
@@ -66,19 +70,26 @@ def write_data():
         f.close()
 
 
-def main():
-    # set url
-    req = requests.get('http://hqbuff.com/uk')
-    soup = BeautifulSoup(req.text, 'html5lib')
-    # get all the games from hqbuff
-    links = soup.find_all("ul", {"class": "list--archive"})[0]
-    # slice the game urls to be in YYYY-MM-DD format
-    all_games = [link.get('href')[9:19] for link in links.find_all('a')]
+def main(from_date):
+    if from_date is None:
+        # set url
+        req = requests.get('http://hqbuff.com/uk')
+        soup = BeautifulSoup(req.text, 'html5lib')
+        # get all the games from hqbuff
+        links = soup.find_all("ul", {"class": "list--archive"})[0]
+        # slice the game urls to be in YYYY-MM-DD format
+        all_games = [link.get('href')[9:19] for link in links.find_all('a')]
 
-    # write the data for every question in the games to the file
-    for link in all_games:
-        write_one_game(link)  # we must prepend the url
+        # write the data for every question in the games to the file
+        for link in all_games:
+            write_one_game(link)  # we must prepend the url
+    else:
+        for day in range(0, (date.today() - from_date).days):
+            date_to_fetch = (from_date + timedelta(day)).strftime("%Y-%m-%d")
+            write_one_game(date_to_fetch)
 
     write_data()
 
-main()
+
+# update this everytime you fetch the questions to prevent duplicates
+main(date(2018, 11, 29))

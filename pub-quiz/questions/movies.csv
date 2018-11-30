@@ -1,111 +1,182 @@
-"Thor is most often associated with which of these objects?","A yo-yo","A hammer","A feather duster",1,1
-"Which Chris does NOT play an Avenger in the Marvel Cinematic Universe?","Tarrant","Evans","Hemsworth",0,2
-"Which of these materials is interwoven into Black Panther's suit?","Batmanium","Vibranium","Kryptonite",1,3
-"In “Guardians of the Galaxy”, what is the title of Quill's mixtape?","Awesome Mix Vol. 1","Galaxy Sounds","Throwback Grooves",0,4
-"How does Iron Man introduce Spider-Man at the airport in “Captain America: Civil War”?","Underoos","My secret son","Spider-Boy",0,5
-"Which of these characters is NOT introduced during the end credits of “The Winter Soldier”?","Scarlet Witch","Quicksilver","Proxima Midnight",2,6
-"In which movie is Stan Lee mistaken for Larry King?","Iron Man 2","Spider-Man: Homecoming","Doctor Strange",0,7
-"What is the wi-fi password that Mordo hands to Doctor Strange?","Shadowland","Shamballa","Wakanda",1,8
-"In his first standalone movie, what is the name on Thor’s driving licence?","Eric Masterson","Kenneth Branagh","Dr. Donald Blake",2,9
-"In 2012's “Avengers Assemble”, where does Natasha Romanoff first meet Bruce Banner?","Calcutta","Algiers","Karachi",0,10
-"Which book causes Scott to cry in “Ant-Man and the Wasp”?","The Notebook","The Fault in Our Stars","P.S. I Love You",1,11
-"Which of these does NOT feature in the UK version of Captain America's list of things to catch up on?","Sean Connery","Monty Python","Thai Food",1,12
-"Which of these is a movie based on an 80s television series of the same name?","5 Backstreet Boys","21 Jump Street","10 Downing Street",1,2
-"China has banned the showing of movies containing which type of content?","Extraterrestrials","Superheroes","Time travel",2,7
-"Which of these Shakespeare characters has been played by Leonardo DiCaprio?","Romeo","King Lear","Hamlet",0,4
-"Which of these is a 2016 remake of a classic Western from the 1960s?","The Terrific Five","The Super-duper Six","The Magnificent Seven",2,1
-"In the 2017 movie “Justice League”, who played the role of Batman's butler Alfred?","Jeremy Irons","Jeremy Kyle","Jeremy Clarkson",0,2
-"Which instrument does Will Ferrell play in “Anchorman”?","Jazz flute","Bagpipes","Glass harmonica",0,3
-"In “The Silence of the Lambs”, Dr Hannibal Lecter is described as having which former profession?","Racing driver","Interior designer","Psychiatrist",2,4
-"Who plays the Sheriff of Nottingham in the most recent Robin Hood movie?","Ben Mendelsohn","Tim Minchin","Jamie Foxx",0,5
-"Which of these actor's performances was cut from “The Life of Pi” after the director changed his mind?","Tobey Maguire","Elijah Wood","Viggo Mortensen",0,6
-"In “The Exorcist”, which actress was the voice behind most of the demon's dialogue?","Ferrari MacOxford","Ford O'Yale","Mercedes McCambridge",2,7
-"Mica Levi composed the soundtrack for which of these sci-fi movies?","Under the Skin","Moon","Her",0,8
-"Which of these movies was adapted from a Japanese novel?","Edge of Tomorrow","Vanilla Sky","Looper",0,9
-"The movie "Interview with the Vampire" featured an actor famous for appearing in which sitcom?","Fawlty Towers","Blackadder","Only Fools and Horses",2,10
-"A movie by which of these directors did NOT win the Palme d'Or at Cannes in the 80s?","Martin Scorsese","Wim Wenders","Steven Soderbergh",0,11
-"Who originally bought the rights to Damian Chazelle's recent movie about Neil Armstrong?","Steven Spielberg","Christopher Nolan","Clint Eastwood",2,12
-"Prior to landing the role of 007, Pierce Brosnan appeared in a series of 80s TV ads for which type of drink?","Irish whiskey","Fizzy pop","Mineral water",1,8
-"Which of these movies failed to win any Academy Awards?","The Wolf of Wall Street","Zero Dark Thirty","Spectre",0,12
-"Quentin Tarantino cited which horror movie as a major influence on “The Hateful Eight”?","The Shining","The Cabin in the Woods","The Thing",2,16
-"The original as well as a cover version of which James Bond theme were both nominated for a Grammy?","Diamonds Are Forever","Live and Let Die","Goldfinger",1,7
-"What did Margot Robbie reveal as the main title of the new Harley Quinn movie?","Little Black Book","Mother Panic","Birds of Prey",2,9
-"Jedi derive power from which of these?","Spinach","C-3PO's complaints","The Force",2,1
-"Which of these actors has NOT appeared in a Star Wars movie?","Dominic West","Joel Edgerton","Aiden Gillen",2,3
-"Which of these is the correct “Empire Strikes Back” quotation?","No, I am your father","I am your father, Luke","Luke, I am your father",0,4
-"Which of these characters is from Corellia?","Jabba the Hutt","Jar Jar Binks","Han Solo",2,5
-"Which of these directors appeared in “The Phantom Menace”?","Quentin Tarantino","Sofia Coppola","Wes Anderson",1,6
-"Which of these planets contains a city in its clouds?","Dagobah","Bespin","Naboo",1,7
-"AT-TE stands for “All Terrain” what?","Training Enhancer","Tactical Enforcer","Trooper Equipment",1,8
-"Which of these is NOT a member of the Jedi Council in “Attack of the Clones”?","Plo Koon","Yoda","Obi-Wan Kenobi",2,9
-"As explained in “Rogue One”, which of the following powers the Death Star's superlaser?","Tibanna gas","Rhydonium","Kyber crystals",2,10
-"Which of these Star Wars movies does NOT feature the “Imperial March” theme?","A New Hope","The Phantom Menace","Rogue One",0,11
-"Which of these characters made their first appearance in “Return of the Jedi”?","Nien Nunb","Zuckuss","Wes Janson",0,12
-"Which mobile operator has also produced the most expensive movie in the history of Bollywood?","Lebara","Virgin Mobile","Lycamobile",2,10
-"Who was cast as Lincoln in the 2012 movie before the part went to Daniel Day-Lewis?","Christian Bale","Tom Hanks","Liam Neeson",2,10
-"Which of these movies was nominated for this year's Best Picture Oscar?","Lady Bird","Grasshopper","Daddy Long Legs",0,1
-"Clint Eastwood starred in the 1979 movie “Escape from” where?","Wormwood Scrubs","Azkaban","Alcatraz",2,2
-"The Palme d'Or is an award given for the best film at which major film festival?","Cannes Film Festival","Sundance Film Festival","Venice Film Festival",0,3
-"In the Bond film “Skyfall”, to what does the title refer?","A country mansion","A military operation","A weather phenomenon",0,4
-"The opening scene of Quentin Tarantino's debut release involves a conversation about which of these?","McDonald's","Mardi Gras","Madonna",2,5
-"Which one of these stars has NOT won an acting Oscar?","Helen Hunt","Amy Adams","Susan Sarandon",1,6
-"Which of these groups had a cameo appearance in “The King of Comedy”?","The Band","The Clash","U2",1,7
-"What did NASA choose as its worst science fiction movie of all time?","Armageddon","2012","The Core",1,8
-"Which of these British movie directors once filmed an ad for Sonic the Hedgehog?","Kevin Macdonald","Tom Hooper","Sam Mendes",1,9
-"The first movie to be commercially released in CinemaScope starred which of these actors?","Marlon Brando","Richard Burton","John Wayne",1,10
-"Which of these actors has written a comic book series about a vigilante “superhero”?","Ryan Reynolds","Mark Hamill","Samuel L Jackson",1,11
-"Which of these actors has reportedly made a film that is not due to be released until the early 22nd century?","Keanu Reeves","John Malkovich","William Shatner",1,12
-"Which season completes the movie title “I Know What You Did Last...”?","Summer","Autumn","Winter",0,2
-"Who recorded dialogue for a character in “Frozen” that was later edited out of the movie?","Jack Whitehall","Jack Gleeson","Jack Black",0,10
-"As a young actor which of these performers appeared in a movie starring Judy Garland?","Anthony Hopkins","Tony Robinson","Jeremy Irons",1,18
-"Which of these figures has received the highest total number of BAFTA nominations?","Christopher Nolan","Mike Leigh","Ridley Scott",1,12
-"A “doll” representing which actor caused amusement this week for not looking like him?","Idris Elba","Daniel Craig","Matt Damon",0,3
-"Which of these Hollywood actors did NOT attend grammar school in England as a child?","Gary Cooper","Cary Grant","Mickey Rooney",2,11
-"Before Daniel Radcliffe was cast, which of these actors was considered for the part of Harry Potter?","Zac Efron","Freddie Highmore","Haley Joel Osment",2,9
-"“Star Wars” and “Interstellar” are examples of which movie genre?","Hi-fi","Wi-fi","Sci-fi",2,1
-"Which classic movie line is NOT from “Jerry Maguire”?","You had me at “Hello”","To me, you are perfect","You complete me",1,9
-"Which of these is a recurring character in the Bond movie franchise?","Miss Moneypenny","Madame Halfasixpence","Lady Brassfarthing",0,1
-"Which of these foods gives its name to a type of western?","Gelato","Pizza Margherita","Spaghetti",2,2
-"Ethan Hunt receives which of these books at the start of the newest “Mission Impossible” movie?","The Beano Annual","The Da Vinci Code","The Odyssey",2,3
-"Which of these actors played one of Freddy Krueger's victims in “A Nightmare on Elm Street”?","Robert Downey Jr.","Johnny Depp","Leonardo DiCaprio",1,4
-"Which of these was Natalie Portman's feature movie debut?","The Phantom Menace","Heat","Leon",2,5
-"Which of these actors was born in the US?","Bruce Willis","Ryan Gosling","John Travolta",2,6
-"Which 90s cartoon series is being developed into a live action movie scheduled for a 2020 release?","The Powerpuff Girls","Beavis and Butt-Head","Rugrats",2,7
-"Which of these movies was adapted from a short story?","Arrival","Lucy","Her",0,8
-"Which of these stars appeared in a hip hop video to promote an 80s crime caper?","Kevin Costner","Michael J. Fox","Tom Hanks",2,9
-"Which of these movies received four acting Oscar nominations but was NOT nominated for Best Picture?","Silver Linings Playbook","American Hustle","Doubt",2,10
-"Which of these directors named his movie company after a medical term?","Christopher Nolan","Quentin Tarantino","James Cameron",0,11
-"Which film studio's opening logo is often accompanied by a tune from a famous Humphrey Bogart movie?","Universal","Warner Bros","Paramount",1,12
-"Mel Gibson and Tom Hardy have both portrayed which of these movie characters?","Tedious Tom","Mad Max","Dull Dan",1,2
-"Hugh Grant played the lead role in the movie “Four Weddings and a” what?","Baby shower","School trip","Funeral",2,1
-"Which Danny played Arnold Schwarzenegger's twin in a hit 1988 comedy?","Danny Dyer","Danny Baker","Danny DeVito",2,3
-"Which of these Star Wars movies made the highest amount at the worldwide box office?","Revenge of the Sith","The Phantom Menace","The Empire Strikes Back",1,11
-"It's been reported this week that a movie version of which TV programme might be in the works?","Modern Family","Breaking Bad","The Big Bang Theory",1,2
-"Which actor famously said the words “alright, alright, alright” in his breakthrough movie role?","Johnny Depp","Matthew McConaughey","Christian Bale",1,4
-"Which of these 2018 movies is based on true events?","Tag","A Quiet Place","Game Night",0,8
-"Which of these movies did NOT earn Leonardo DiCaprio a best actor Oscar nomination?","Blood Diamond","Titanic","The Aviator",1,7
-"What does Batman ask Superman during a fight scene in the 2016 movie “Dawn of Justice”?","Tell me, do you knit?","Tell me, do you sneeze?","Tell me, do you bleed?",2,4
-"What was the setting for most of the action in the last “Back to the Future” film?","1950s","Old West","21st century",1,7
-"Which of the following is a 1968 movie starring Charlton Heston?","Land of the Unicorns","Moon of the Gnomes","Planet of the Apes",2,1
-"Which of these is the title of a 1990 movie starring Arnold Schwarzenegger?","Total Recall","Abject Amnesia","Partial Memory",0,2
-"Who directed the 2018 movie “Ready Player One”?","Ryan Coogler","Bradley Cooper","Steven Spielberg",2,3
-"Which of the following starred in “Avatar” as well as the “Star Trek” and “Guardians of the Galaxy” franchises?","Zoe Saldana","Sigourney Weaver","Karen Gillan",0,4
-"The “Blade Runner” movies are loosely based on a work by which author?","Arthur C. Clarke","Philip K. Dick","Isaac Asimov",1,5
-"What was George Lucas’ original choice of surname for Luke’s character in “Star Wars”?","Starkiller","Starwalker","Starflier",0,6
-"Which of these movies was NOT nominated for a Best Picture Academy Award?","Interstellar","The Martian","Gravity",0,7
-"Which of these movies was adapted from a short film?","Inception","District 9","Ex Machina",1,8
-"One of the co-writers of "Venom" was also an uncredited writer on which other Tom Hardy movie?","Mad Max: Fury Road","This Means War","Bronson",2,9
-"Uma Thurman's character in “Gattaca” was named after which type of scientist?","A geologist","An astronomer","A geneticist",1,10
-"Which of these comics spent several weeks in screen tests for the role of an ape in "2001: A Space Odyssey"?","Spike Milligan","Ronnie Corbett","John Cleese",1,11
-"Which movie was originally going to be about a World War II bomber crew flying over Japan?","Event Horizon","Innerspace","Alien",2,12
-"Gomez, Morticia, and Pugsley are members of which family?","Kardashian","Beckham","Addams",2,1
-"Which of these stars was originally due to direct “The Silence of the Lambs”?","Clint Eastwood","Al Pacino","Gene Hackman",2,6
-"The writer of which of these movies once took part in a TV game show presented by Groucho Marx?","The Omen","The Exorcist","Halloween",1,9
-"A horror comedy movie of 1981 is entitled what in London?","An American Werewolf","A Mexican Donkey","A Canadian Moose",0,1
-"In the movie “Team America: World Police” where is the team's base located?","Mount Rushmore","Alcatraz","Grand Canyon",0,8
-"A bathroom in a Californian sushi restaurant is dedicated to which of these Hollywood stars?","Bradley Cooper","Mark Wahlberg","Ryan Gosling",2,12
-"Which word completes the title of the Disney classic “Beauty and the...”?","Fridge Magnet","Traffic Camera","Beast",2,1
-"Which of these actors has NOT portrayed Lawrence of Arabia on screen?","Robert Pattinson","Michael Fassbender","Ralph Fiennes",1,10
+"“Sister Suffragette' is a song from which musical film?","Oliver!","Mary Poppins","The Sound of Music",1,4
+"Which of these animated movies does NOT star a knighted actor?","The Emoji Movie","Fantastic Mr. Fox","Wreck-It Ralph",2,6
+"Which of these BBC radio personalities featured in the 2006 movie “Children of Men”?","DJ Nihal","Scott Mills","John Humphrys",0,11
+"Which movie's poster depicts a lonely astronaut above the line “950,000 miles from home”?","Life","Moon","Gravity",1,8
+"In “The Exorcist”, what is the name of the demon that possesses Regan?","Pikachu","Pazuzu","Uvavu",1,5
+"In the 80s, which Oscar-nominated actor portrayed lead characters in movies about country singing and football?","Sylvester Stallone","Jeff Bridges","Kevin Costner",0,9
+"Which of these animals has featured in an Academy Award-winning movie?","Popcorn Deelites","Punxsutawney Phil","Orangey",2,12
+"Which character did Michael Caine play in “The Muppet Christmas Carol”?","Ebenezer Scrooge","Ed Sheeran","Edward Scissorhands",0,2
+"What is the name of the energy sword featured in the Star Wars franchise?","Sabretooth","Lightsaber","Müllerlight",1,2
+"Which of these movies did NOT feature Marlon Brando?","Goodfellas","The Godfather","Apocalypse Now",0,5
+"Who was the first Golden Globe nominee for their role as a Marvel character?","Hugh Jackman","Chris Evans","Ryan Reynolds",2,10
+"Which of these movies features more than 10 characters in its cast?","Cast Away","Hard Candy","10 Cloverfield Lane",0,8
+"Marilyn Monroe's final, unfinished movie was later remade into which of these?","Move Over, Darling","Viva Las Vegas","Breakfast at Tiffany's",0,11
+"Which of these movies is based on a British short film starring Cherie Lunghi?","Fatal Attraction","Basic Instinct","Indecent Proposal",0,11
+"What is actor Dwayne Johnson's wrestling name?","The Brick","The Pebble","The Rock",2,2
+"The composer of music for “The Shining” also created the soundtrack for which of these movies?","Robocop","Total Recall","Tron",2,10
+"Which of these is a popular Vin Diesel action franchise?","xXx","hHh","aAa",0,2
+"Which of these songs features on the “Pitch Perfect 2” soundtrack?","Lights","Flashlight","Firework",1,11
+"In a recent Twitter challenge, which movie's plot was described as “the saddest opening montage ever”?","Saving Private Ryan","Up","Bambi",1,6
+"Whose performance as Peeves was cut from the first “Harry Potter” movie?","Ricky Gervais","Richard Griffiths","Rik Mayall",2,6
+"Samuel L. Jackson almost quit “Snakes on a Plane” when producers threatened to change what?","Their choice of reptile","His salary","Movie’s name",2,9
+"In “Grease,” the actor playing what character famously had to be sewn into their pants for the closing song?","Sandy","Danny","Rizzo",0,12
+"Movie producer Hal Roach Sr. is said to have coined which of these terms?","Cut to the chase","Lights, camera, action!","In the can",0,9
+"Which of these volcanoes shares its name with a Disney character?","Pacaya","Stromboli","Tambora",1,4
+"Which of these Tarantino movies begins with an English actor talking?","Reservoir Dogs","The Hateful Eight","Pulp Fiction",2,8
+"Whose collection of jewels were known as the “crown jewels of Hollywood”?","Marilyn Monroe","Elizabeth Taylor","Grace Kelly",1,6
+"CASE and TARS are robots from which sci-fi movie?","Interstellar","Ex Machina","The Terminator",0,5
+"Which of these Disney movies was based on a storyline written for a novelty reading toy?","Bambi","The Love Bug","Dumbo",2,12
+"Who played the title role in the 1990s movie “What's Eating Gilbert Grape”?","Tobey Maguire","Leonardo DiCaprio","Johnny Depp",2,7
+"Which actor was replaced by Michael J Fox in “Back to the Future” after just a few weeks of filming?","Kiefer Sutherland","Matthew Modine","Eric Stoltz",2,11
+"Who made his feature film debut in “Die Hard”?","Jeremy Irons","Bruce Willis","Alan Rickman",2,6
+"Which actor's cameo role in 'ET' was cut from the final version of the movie?","Billy Crystal","Robin Williams","Harrison Ford",2,7
+"Which of these movies takes place in the 22nd century?","Avatar","The Purge","Prometheus",0,6
+"Which Bond villain plans to recreate humanity with himself at the head of the human race?","Drax","Goldfinger","Scaramanga",0,11
+"The actress who voiced the Snow Queen in “Frozen” also appeared in which other Disney movie?","Tangled","Enchanted","Moana",1,6
+"The script for which of these Oscar-winning movies was inspired by a floating plastic bag?","American Beauty","The Shape of Water","Birdman",0,7
+"In ''Terminator: Genisys', the offices of the Cyberdyne organisation were based on those of which real company?","Facebook","Oracle","Google",1,11
+"In which movie was the character Kevin McCallister unwittingly abandoned by his family?","Nobody's Alone","Everyone's Home","Home Alone",2,2
+"Members of which musical family auditioned to be in the movie ''The Sound of Music'?","The Gibb Brothers","The Osmonds","The Carpenters",1,12
+"Which British sitcom's leading lady had a supporting role in “Wonder Woman”?","The Office","The Inbetweeners","Peep Show",0,4
+"Which of these actors has NOT played both twin brothers in the same movie?","Tom Hardy","Jeremy Irons","Clive Owen",2,8
+"Which of these people appeared in the movie “The Sixth Sense”?","Laura Linney","Donnie Wahlberg","Mark Wahlberg",1,8
+"Which of these film characters had a pet llama named Tina?","Hans Gruber","Paul Blart","Napoleon Dynamite",2,3
+"Harrison Ford played what fictional archaeologist in “Raiders of the Lost Ark”?","Texarkana Johnson","Indiana Jones","Canada Gord",1,1
+"Who was the first person born in the 80s to have been nominated for the Best Actor Oscar?","Heath Ledger","Eddie Redmayne","Ryan Gosling",2,11
+"Which of these directors owns the Skywalker Ranch in California?","Steven Spielberg","Francis Ford Coppola","George Lucas",2,5
+"Of these three performers, who ranked highest on Forbes’ 2018 list of highest-paid actors?","Jackie Chan","Adam Sandler","Will Smith",0,10
+"“Where's my super suit” is a line spoken by which of these movie characters?","Superman","Frozone","Black Panther",1,4
+"Which of these movies was the first to be preceded by the Amblin Entertainment logo, the company founded by Steven Spielberg?","The Goonies","Gremlins","ET",1,10
+"Tom Cruise has been in six “Mission” movies which are described as what in the title?","Impossible","Quite dodgy","Borderline tricky",0,1
+"The closing line of which movie is “That’ll do, pig. That’ll do”?","Bee Movie","Babe","Chicken Little",1,3
+"Jesse Eisenberg portrayed which of these tech entrepreneurs in “The Social Network”?","Bill Gates","Mark Zuckerberg","Steve Jobs",1,4
+"Which character in “The Dark Knight” says the line “Why so serious”?","The Joker","Scarecrow","Two-Face",0,5
+"Which of these actors made their movie debut in “Back to the Future Part II”?","Macaulay Culkin","Elijah Wood","Tobey Maguire",1,7
+"Which of these actors appeared in three of the movies shortlisted for the 2018 Best Picture Oscar?","Woody Harrelson","Michael Stuhlbarg","Octavia Spencer",1,8
+"The Clint Eastwood movie “Pale Rider” used the theme music from which TV programme in its trailer?","Channel 4 News","Top Gear","Doctor Who",0,9
+"Of these three true story movies, which is actually the “truest”, based on statistical analysis?","The King's Speech","The Wolf of Wall Street","Bridge of Spies",2,10
+"Which of these did NOT feature in Empire’s 2017 list of the 100 greatest movies of all time?","Dr. Strangelove","Amélie","Avengers Assemble",0,11
+"Which of these actors has played Winston Churchill in a feature-length movie?","Anthony Hopkins","Robbie Coltrane","Christian Slater",2,12
+"Of these movies, which has the most mistakes according to moviemistakes.com?","Scary Movie 3","Jurassic Park","The Birds",2,12
+"Which actor's brother sometimes steps in to provide his voice when he is unavailable?","Samuel L. Jackson","Will Ferrell","Tom Hanks",2,9
+"Which of these actors won two Oscars before the age of 30?","Katharine Hepburn","Greta Garbo","Luise Rainer",2,10
+"A Wikipedia disagreement about which actor's nationality has reportedly resulted in over 6,000 edits to her page?","Nicole Kidman","Jennifer Aniston","Charlize Theron",1,12
+"The Lucasfilm-developed THX theater standard debuted with what film?","Raiders of the Lost Ark","Return of the Jedi","The Empire Strikes Back",1,12
+"Which pop star played Whitney Houston's manager in “The Bodyguard”?","Jon Bon Jovi","Phil Collins","Gary Kemp",2,7
+"Which of these actors has never appeared in a movie sequel?","Leonardo DiCaprio","Russell Crowe","Kate Winslet",1,12
+"Which of these movies was the first to be released as a PG-13 in the US?","Red Dawn","The Color Purple","Dirty Dancing",0,8
+"Which of these movies had the most Oscar nominations?","Despicable Me 2","The Shining","Groundhog Day",0,5
+"Who did Michael Jackson play in the 1970s' movie remake of “The Wizard of Oz”?","The Tin Man","The Lion","The Scarecrow",2,8
+"Of these actors, which one has starred in the most movies directed by Quentin Tarantino?","Christoph Waltz","Uma Thurman","Samuel L. Jackson",2,5
+"Which of these is NOT the title of a dance-themed movie?","Billy Elliot","Step Up","Dances With Wolves",2,5
+"Which of these actors has NOT played Hulk's alter ego, Dr. Banner?","Kevin Bacon","Eric Bana","Bill Bixby",0,6
+"Which movie director had a cameo role in 'It's Always Sunny in Philadelphia'?","Quentin Tarantino","Ron Howard","Guillermo del Toro",2,9
+"Which of these Disney characters was voiced by Matthew Broderick?","Gaston","Jafar","Simba",2,5
+"What is the name of the car that Batman drives?","Topcatmobile","Batmobile","Chitchatmobile",1,1
+"The box set of which movie had DVD commentaries by people who both loved it and hated it?","Kill Bill","Die Hard","The Matrix",2,12
+"Two different actors won Oscars for playing the same character with what first name?","Robert","Vito","Michael",1,12
+"Which of these classic Hitchcock movies is NOT adapted from an existing novel?","North by Northwest","Vertigo","Psycho",0,14
+"Which of these actors has NOT featured in a Christopher Nolan movie?","Robin Williams","Andy Serkis","Bryce Dallas Howard",2,11
+"In the 007 movie “Goldfinger” what does the main villain's henchman famously use as a weapon?","Umbrella","Bowler hat","Pocket watch",1,4
+"Which of these actors has NOT played a Nobel Peace Prize winner in a movie?","Denzel Washington","Dennis Haysbert","Juliet Stevenson",0,11
+"Which Alfred Hitchcock movie had a sequel made 31 years later, featuring the original female lead?","Rear Window","The Birds","Psycho",1,12
+"What is the last name of Sylvester Stallone's fictional boxer whose forename is Rocky?","Bluebottle","Balboa","Balsamic",1,2
+"The 80s hit movie “Three Men and a Baby” was directed by an actor best-known for playing which part?","Seinfeld","Starsky","Spock",2,8
+"Who is the youngest ever nominee for the Best Director award at the Oscars?","Sofia Coppola","Damien Chazelle","John Singleton",2,9
+"James Bond actor Roger Moore had a phobia of which of the following?","Guns","Driving","Skiing",0,8
+"A Cannes Festival parody of which footballer getting involved in politics was a big success this year?","Diego Maradona","Cristiano Ronaldo","Luis Suárez",1,10
+"Which of these directors has been nominated for a Razzie as Worst Director?","Eli Roth","Steven Spielberg","Stanley Kubrick",2,7
+"In the movie “Dirty Dancing” Patrick Swayze's character protests that “Nobody puts Baby” where?","In a corner","Down the chimney","In a wheelbarrow",0,4
+"Who is the star of the follow-up to the 1993 hit film “The Fugitive”?","Harrison Ford","Tommy Lee Jones","David Janssen",1,12
+"Dolph Lundgren made his first cinematic appearance in which of these movies?","Masters of the Universe","A View to a Kill","Rocky IV",1,10
+"“Old West Action” is an anagram of which actor's name?","John Wayne","Clint Eastwood","James Stewart",1,3
+"Where did George Lucas go when the premiere of the very first “Star Wars” movie was taking place?","Iceland","Tunisia","Hawaii",2,11
+"What is the title of the cult 1991 movie starring Anthony Hopkins as Hannibal Lecter?","The Hooting of the Owls","The Mooing of the Cows","The Silence of the Lambs",2,1
+"Which of these 80s movies won an Academy Award for Best Picture?","The Last Emperor","The Color Purple","E.T.",0,10
+"Which of these comedians wrote and directed the 2017 Oscar winner “Get Out”?","Brendan O'Carroll","Jordan Peele","Michael McIntyre",1,4
+"Which of these actors did NOT star in the first movie they directed?","Nicolas Cage","Jack Nicholson","Chris Evans",1,11
+"Which of these movies features a parody of The Beatles in the form of birds?","Bedknobs and Broomsticks","The Jungle Book","Mary Poppins",1,5
+"Which of these was NOT a rejected character for Disney's “Snow White and the Seven Dwarfs?”","Baldy","Flabby","Loosy",2,14
+"Which of these actors appeared in “Saving Private Ryan”?","Edward Norton","Vin Diesel","George Clooney",1,5
+"Which of these vehicles feature heavily in “The Fast and the Furious” movies?","Unicycles","Wheelbarrows","Cars",2,1
+"Which of these movies does NOT begin with a traffic jam?","La La Land","World War Z","Falling Down",1,11
+"Which of these directors co-wrote the story for the 2013 movie “Man of Steel”?","Zack Snyder","Christopher Nolan","Patty Jenkins",1,8
+"What is the name of the sister of Donnie Darko who is the lead character in the movie’s sequel?","Rose","Samantha","Elizabeth",1,8
+"The director of the first Bond movie also directed which of the following in their big-screen acting debut?","Cliff Richard","Barbra Streisand","The Beatles",0,11
+"Which of these classic ’80s movies spawned a theatrically-released sequel?","E.T.","Gremlins","The Goonies",1,6
+"Which of these words features in the title of the third “Transformers” movie?","Knight","Dark","Fallen",1,7
+"Sting was considered for a major part in which of these 80s movies?","The Terminator","Tron","Blade Runner",0,12
+"In the Disney movie of Alice in Wonderland which character sings “I'm late! I'm late! For a very important date!”?","Black Squirrel","White Rabbit","Pink Elephant",1,3
+"Which of these actors portrayed the British PM in a Sacha Baron Cohen movie?","Michael Gambon","Charles Dance","Richard E. Grant",0,7
+"Which of these items was originally going to be used as the time machine in “Back to the Future”?","Skateboard","Television","Fridge",2,9
+"What was the title of the first James Bond movie?","Dr. Maybe","Dr. Yes","Dr. No",2,2
+"The special effect “bullet time” was popularised by which 90s movie?","Terminator 2","The Matrix","Men in Black",1,5
+"Which of these feature animations is NOT based on a Hans Christian Andersen story?","The Little Mermaid","Frozen","Beauty and the Beast",2,10
+"Which novel was turned into a musical and cancelled on Broadway after 21 performances?","Carrie","It","The Shining",0,14
+"Which classic movie doofus orders a pizza to his classroom?","Billy Madison","Stifler","Spicoli",2,11
+"Which superhero movie was directed by a person nominated for multiple Oscars?","Thor","The Avengers","Logan",0,15
+"Which movie set in the Florida Keys features a friendly dolphin?","Jaws","Lassie","Flipper",2,1
+"Who had Renée Zellweger's character “at hello” in a famous 1990s movie?","Jerry Springer","Jerry Maguire","Jheri Curl",1,2
+"Which animal sits on Don Corleone's lap as he delivers his opening speech in “The Godfather”?","King Kong","A cat","A horse",1,3
+"The myth that humans use only 10% of their brains was the basis for which of these sci-fi movies?","Primer","Transcendence","Lucy",2,4
+"“A Boy's Life” was one of the initial production titles of which movie?","ET the Extra-Terrestrial","Home Alone","The Life of Pi",0,5
+"Who reprises her role this year in a sequel to her movie debut 40 years ago?","Susan Sarandon","Jamie Lee Curtis","Sigourney Weaver",1,6
+"The actor who played which role in “Gavin and Stacey” also appeared in 2017's “Wonder Woman”?","Smithy","Budgie","Dave Coaches",2,7
+"Which of these movie stars was born in Ireland?","Saoirse Ronan","Michael Fassbender","Colin Farrell",2,8
+"Who is the only actor to have won Best Supporting Actor Oscars in consecutive years?","Christoph Waltz","Michael Caine","Jason Robards",2,9
+"What prompted Vin Diesel to offer Dwayne Johnson a part in the “Fast and Furious” franchise?","A fan's suggestion","A movie magazine vote","A dream",0,10
+"A play by which of these Hollywood stars had its London premiere in 2016?","Zach Braff","Steve Martin","Jesse Eisenberg",2,11
+"Which popular entertainment group is referred to at the end of Hitchcock's “The 39 Steps”?","The Marx Brothers","The Three Stooges","The Crazy Gang",2,12
+"Which word completes the traditional movie cue “lights, camera, ...”?","Bundle!","Run! It has escaped!","Action!",2,1
+"Who was NOT considered for the role of Doc Brown in the original “Back to the Future” movie?","Jeff Goldblum","John Cleese","Jeff Bridges",2,9
+"The actor who played which horror role had an uncredited appearance in the 1976 version of “A Star Is Born”?","Leatherface","Chucky","Freddy Krueger",2,9
+"In which movie did Clark Gable's character famously respond, “Frankly, my dear...”?","Evaporated in the Sleet","Gone with the Wind","Arrived in the Rain",1,2
+"Which of these movie franchises has had the most instalments?","Planet of the Apes","Halloween","Jaws",1,5
+"Which of these movie scores was NOT composed by John Williams?","Minority Report","Home Alone","Back to the Future",2,6
+"The first scene of the film “Jurassic Park” involves an accident with what dinosaur?","Triceratops","Velociraptor","T-Rex",1,12
+"Which of these Oscar-winning films was adapted from a book?","American Beauty","Shrek","The King’s Speech",1,20
+"Which movie did NOT get Tom Hanks an Oscar nomination?","Apollo 13","Big","Saving Private Ryan",0,23
+"Which of these is NOT the title of a Golden Globe nominated rom-com?","Silver Linings Playbook","Bridget Jones's Diary","Memoir on a Post-it Note",2,1
+"The 1959 romantic comedy starring Marilyn Monroe is titled “Some Like It” what?","Lukewarm","Hot","Frosty",1,2
+"In the movie “Splash” Daryl Hannah plays which mythical creature?","Mermaid","Werewolf","Bigfoot",0,3
+"Which English comedian appeared in “There's Something About Mary”?","Lee Evans","Eddie Izzard","Michael Palin",0,4
+"Who directed “Four Weddings and a Funeral”?","Richard Curtis","Hugh Grant","Mike Newell",2,5
+"Which of these was first written as a drama named “3,000”?","Pretty Woman","Sleepless in Seattle","50 First Dates",0,6
+"Alicia Silverstone's character in “Clueless” repeatedly mispronounces which of the following?","Euphemism","Nokia","Haitians",2,7
+"Which of these performers has been nominated for 'Best Kiss' at the MTV Movie awards the most times?","Robert Pattinson","Leonardo DiCaprio","Kristen Stewart",2,8
+"The script of which of these comedies was written by a university student?","Groundhog Day","As Good as It Gets","Harold and Maude",2,9
+"Which movie ranked number one on the American Film Institute's Top 10 list of romantic comedies?","The Philadelphia Story","Roman Holiday","City Lights",2,10
+"Which of these movies was NOT nominated for an Oscar for Best Original Screenplay?","Amélie","The Wedding Singer","My Big Fat Greek Wedding",1,11
+"Actors from which of these movies moved in together after playing roommates on screen?","Bridesmaids","27 Dresses","Notting Hill",0,12
+"David Bowie came close to portraying a major villain in which of these movie franchises?","James Bond","Austin Powers","Die Hard",0,10
+"Who was the first ever recipient of a bronze mask BAFTA award?","Laurence Olivier","Alec Guinness","Charlie Chaplin",2,11
+"Who directed “The Empire Strikes Back”?","Irvin Kershner","George Lucas","Steven Spielberg",0,5
+"In most of Latin America, “My Poor Little Angel” is the translated title of what film?","The Karate Kid","Finding Nemo","Home Alone",2,12
+"The studio behind which 80s movie wanted to name it “Spaceman from Pluto’’?","Back to the Future","The Terminator","ET",0,12
+"What is the title of the 1993 romcom starring Tom Hanks and Meg Ryan?","Dozy in Detroit","Nodding in New York","Sleepless in Seattle",2,1
+"“Pulp Fiction” originally had which of these titles?","Black Monday","Black Sabbath","Black Mask",2,9
+"It was reported that which actor plans to give his fortune of more than £500 million to charity?","Keanu Reeves","Chow Yun-fat","Tom Cruise",1,11
+"Which of these actors has NOT played the devil?","Robert de Niro","John Travolta","Jack Nicholson",1,14
+"Which “Berry” played the title role in the 2004 movie “Catwoman”?","Chuck","Halle","Mary",1,1
+"Which of these is a 2016 movie starring Emily Blunt?","The Uncle on the Segway","The Girl on the Train","The Boy on the Unicycle",1,2
+"Elastigirl, Dash and Frozone are all characters in which 2018 movie?","Halloween","The First Purge","Incredibles 2",2,3
+"Who played the title role in the 1996 movie version of “Evita”?","Britney Spears","Mariah Carey","Madonna",2,4
+"Which of these performers co-wrote the song “Shallow” from “A Star is Born”?","Mark Ronson","Calvin Harris","David Guetta",0,5
+"Who was banned from taking part in the Oscars in the 90s?","Billy Bob Thornton","Richard Gere","Robert de Niro",1,6
+"Who was forced to leave the cast of “Scary Movie 2” because of ill health?","Courteney Cox","Martin Sheen","Marlon Brando",2,7
+"Of these directors, who was the only one to have won a Best Director Oscar?","William Wyler","Alfred Hitchcock","Ingmar Bergman",0,8
+"Which of these silent movie stars retired to run a ranch in Nevada?","Douglas Fairbanks","Clara Bow","Mary Pickford",1,9
+"Which of the following movies cost the most to make?","Titanic","Avatar","Tangled",2,10
+"First produced as a 1917 silent movie which novel is again being adapted for a 2019 release?","Wuthering Heights","Little Women","Pride and Prejudice",1,11
+"Steven Spielberg made an uncredited appearance in which Tom Cruise movie?","War of the Worlds","Minority Report","Vanilla Sky",2,12
+"In which film did Matt Damon and Ben Affleck both appear as extras?","School Ties","Good Will Hunting","Field of Dreams",2,12
+"In which of these movies did Hannibal Lecter make his first appearance?","Red Dragon","The Silence of the Lambs","Manhunter",2,5
+"Who was the first person to win an acting Oscar in a foreign language movie?","Brigitte Bardot","Catherine Deneuve","Sophia Loren",2,8
+"Which of these was the first non-Disney animated movie to earn over $100 million worldwide?","The Rugrats Movie","Chicken Run","Pokémon: The First Movie",0,11
+"Liam Neeson's new movie has been compared to an episode from which TV programme?","Bojack Horseman","Family Guy","The Simpsons",2,11
+"It was annnounced that which 90s movie will be given a reboot?","Clueless","Mrs Doubtfire","Home Alone",0,12
+"Who played Harley Quinn in the 2016 movie “Suicide Squad”?","Will Smith","Jared Leto","Margot Robbie",2,3
+"Which of these princesses made a cameo appearance in Disney's “Frozen”?","Rapunzel","Mulan","Jasmine",0,10
 "Disney’s “Aladdin” features a magical version of which of these things?","Kitchen island","Walk-in closet","Carpet",2,1
 "What delicious dish do Lady and Tramp famously share?","Blueberry matcha muffin","Spaghetti","Pumpkin spice nest soup",1,2
 "Which of these Disney songs was sung by a mermaid?","Circle of Life","Be Our Guest","Part of Your World",2,3
@@ -136,182 +207,111 @@
 "Which actor’s feature film debut was in a horror movie starring William Shatner?","Jeff Bridges","John Travolta","Bruce Willis",1,10
 "A ride based on which horror movie recently opened in a Staffordshire theme park?","It","Saw","The Wicker Man",2,11
 "What cameo was played by the director in the original “Night of the Living Dead” movie?","An undertaker","A zombie","A reporter",2,12
-"Who played Harley Quinn in the 2016 movie “Suicide Squad”?","Will Smith","Jared Leto","Margot Robbie",2,3
-"Which of these princesses made a cameo appearance in Disney's “Frozen”?","Rapunzel","Mulan","Jasmine",0,10
-"Liam Neeson's new movie has been compared to an episode from which TV programme?","Bojack Horseman","Family Guy","The Simpsons",2,11
-"It was annnounced that which 90s movie will be given a reboot?","Clueless","Mrs Doubtfire","Home Alone",0,12
-"Which of these was the first non-Disney animated movie to earn over $100 million worldwide?","The Rugrats Movie","Chicken Run","Pokémon: The First Movie",0,11
-"In which film did Matt Damon and Ben Affleck both appear as extras?","School Ties","Good Will Hunting","Field of Dreams",2,12
-"In which of these movies did Hannibal Lecter make his first appearance?","Red Dragon","The Silence of the Lambs","Manhunter",2,5
-"Who was the first person to win an acting Oscar in a foreign language movie?","Brigitte Bardot","Catherine Deneuve","Sophia Loren",2,8
-"Which of these actors has NOT played the devil?","Robert de Niro","John Travolta","Jack Nicholson",1,14
-"Which “Berry” played the title role in the 2004 movie “Catwoman”?","Chuck","Halle","Mary",1,1
-"Which of these is a 2016 movie starring Emily Blunt?","The Uncle on the Segway","The Girl on the Train","The Boy on the Unicycle",1,2
-"Elastigirl, Dash and Frozone are all characters in which 2018 movie?","Halloween","The First Purge","Incredibles 2",2,3
-"Who played the title role in the 1996 movie version of “Evita”?","Britney Spears","Mariah Carey","Madonna",2,4
-"Which of these performers co-wrote the song “Shallow” from “A Star is Born”?","Mark Ronson","Calvin Harris","David Guetta",0,5
-"Who was banned from taking part in the Oscars in the 90s?","Billy Bob Thornton","Richard Gere","Robert de Niro",1,6
-"Who was forced to leave the cast of “Scary Movie 2” because of ill health?","Courteney Cox","Martin Sheen","Marlon Brando",2,7
-"Of these directors, who was the only one to have won a Best Director Oscar?","William Wyler","Alfred Hitchcock","Ingmar Bergman",0,8
-"Which of these silent movie stars retired to run a ranch in Nevada?","Douglas Fairbanks","Clara Bow","Mary Pickford",1,9
-"Which of the following movies cost the most to make?","Titanic","Avatar","Tangled",2,10
-"First produced as a 1917 silent movie which novel is again being adapted for a 2019 release?","Wuthering Heights","Little Women","Pride and Prejudice",1,11
-"Steven Spielberg made an uncredited appearance in which Tom Cruise movie?","War of the Worlds","Minority Report","Vanilla Sky",2,12
-"It was reported that which actor plans to give his fortune of more than £500 million to charity?","Keanu Reeves","Chow Yun-fat","Tom Cruise",1,11
-"The studio behind which 80s movie wanted to name it “Spaceman from Pluto’’?","Back to the Future","The Terminator","ET",0,12
-"What is the title of the 1993 romcom starring Tom Hanks and Meg Ryan?","Dozy in Detroit","Nodding in New York","Sleepless in Seattle",2,1
-"“Pulp Fiction” originally had which of these titles?","Black Monday","Black Sabbath","Black Mask",2,9
-"In most of Latin America, “My Poor Little Angel” is the translated title of what film?","The Karate Kid","Finding Nemo","Home Alone",2,12
-"Who directed “The Empire Strikes Back”?","Irvin Kershner","George Lucas","Steven Spielberg",0,5
-"David Bowie came close to portraying a major villain in which of these movie franchises?","James Bond","Austin Powers","Die Hard",0,10
-"Who was the first ever recipient of a bronze mask BAFTA award?","Laurence Olivier","Alec Guinness","Charlie Chaplin",2,11
-"The first scene of the film “Jurassic Park” involves an accident with what dinosaur?","Triceratops","Velociraptor","T-Rex",1,12
-"Which of these Oscar-winning films was adapted from a book?","American Beauty","Shrek","The King’s Speech",1,20
-"Which movie did NOT get Tom Hanks an Oscar nomination?","Apollo 13","Big","Saving Private Ryan",0,23
-"Which of these is NOT the title of a Golden Globe nominated rom-com?","Silver Linings Playbook","Bridget Jones's Diary","Memoir on a Post-it Note",2,1
-"The 1959 romantic comedy starring Marilyn Monroe is titled “Some Like It” what?","Lukewarm","Hot","Frosty",1,2
-"In the movie “Splash” Daryl Hannah plays which mythical creature?","Mermaid","Werewolf","Bigfoot",0,3
-"Which English comedian appeared in “There's Something About Mary”?","Lee Evans","Eddie Izzard","Michael Palin",0,4
-"Who directed “Four Weddings and a Funeral”?","Richard Curtis","Hugh Grant","Mike Newell",2,5
-"Which of these was first written as a drama named “3,000”?","Pretty Woman","Sleepless in Seattle","50 First Dates",0,6
-"Alicia Silverstone's character in “Clueless” repeatedly mispronounces which of the following?","Euphemism","Nokia","Haitians",2,7
-"Which of these performers has been nominated for "Best Kiss' at the MTV Movie awards the most times?","Robert Pattinson","Leonardo DiCaprio","Kristen Stewart",2,8
-"The script of which of these comedies was written by a university student?","Groundhog Day","As Good as It Gets","Harold and Maude",2,9
-"Which movie ranked number one on the American Film Institute's Top 10 list of romantic comedies?","The Philadelphia Story","Roman Holiday","City Lights",2,10
-"Which of these movies was NOT nominated for an Oscar for Best Original Screenplay?","Amélie","The Wedding Singer","My Big Fat Greek Wedding",1,11
-"Actors from which of these movies moved in together after playing roommates on screen?","Bridesmaids","27 Dresses","Notting Hill",0,12
-"Which of these movie scores was NOT composed by John Williams?","Minority Report","Home Alone","Back to the Future",2,6
-"In which movie did Clark Gable's character famously respond, “Frankly, my dear...”?","Evaporated in the Sleet","Gone with the Wind","Arrived in the Rain",1,2
-"Which of these movie franchises has had the most instalments?","Planet of the Apes","Halloween","Jaws",1,5
-"The actor who played which horror role had an uncredited appearance in the 1976 version of “A Star Is Born”?","Leatherface","Chucky","Freddy Krueger",2,9
-"Which word completes the traditional movie cue “lights, camera, ...”?","Bundle!","Run! It has escaped!","Action!",2,1
-"Who was NOT considered for the role of Doc Brown in the original “Back to the Future” movie?","Jeff Goldblum","John Cleese","Jeff Bridges",2,9
-"Which classic movie doofus orders a pizza to his classroom?","Billy Madison","Stifler","Spicoli",2,11
-"Which superhero movie was directed by a person nominated for multiple Oscars?","Thor","The Avengers","Logan",0,15
-"Which movie set in the Florida Keys features a friendly dolphin?","Jaws","Lassie","Flipper",2,1
-"Who had Renée Zellweger's character “at hello” in a famous 1990s movie?","Jerry Springer","Jerry Maguire","Jheri Curl",1,2
-"Which animal sits on Don Corleone's lap as he delivers his opening speech in “The Godfather”?","King Kong","A cat","A horse",1,3
-"The myth that humans use only 10% of their brains was the basis for which of these sci-fi movies?","Primer","Transcendence","Lucy",2,4
-"“A Boy's Life” was one of the initial production titles of which movie?","ET the Extra-Terrestrial","Home Alone","The Life of Pi",0,5
-"Who reprises her role this year in a sequel to her movie debut 40 years ago?","Susan Sarandon","Jamie Lee Curtis","Sigourney Weaver",1,6
-"The actor who played which role in “Gavin and Stacey” also appeared in 2017's “Wonder Woman”?","Smithy","Budgie","Dave Coaches",2,7
-"Which of these movie stars was born in Ireland?","Saoirse Ronan","Michael Fassbender","Colin Farrell",2,8
-"Who is the only actor to have won Best Supporting Actor Oscars in consecutive years?","Christoph Waltz","Michael Caine","Jason Robards",2,9
-"What prompted Vin Diesel to offer Dwayne Johnson a part in the “Fast and Furious” franchise?","A fan's suggestion","A movie magazine vote","A dream",0,10
-"A play by which of these Hollywood stars had its London premiere in 2016?","Zach Braff","Steve Martin","Jesse Eisenberg",2,11
-"Which popular entertainment group is referred to at the end of Hitchcock's “The 39 Steps”?","The Marx Brothers","The Three Stooges","The Crazy Gang",2,12
-"The special effect “bullet time” was popularised by which 90s movie?","Terminator 2","The Matrix","Men in Black",1,5
-"Which of these feature animations is NOT based on a Hans Christian Andersen story?","The Little Mermaid","Frozen","Beauty and the Beast",2,10
-"Which novel was turned into a musical and cancelled on Broadway after 21 performances?","Carrie","It","The Shining",0,14
-"What was the title of the first James Bond movie?","Dr. Maybe","Dr. Yes","Dr. No",2,2
-"Which of these items was originally going to be used as the time machine in “Back to the Future”?","Skateboard","Television","Fridge",2,9
-"In the Disney movie of Alice in Wonderland which character sings “I'm late! I'm late! For a very important date!”?","Black Squirrel","White Rabbit","Pink Elephant",1,3
-"Which of these actors portrayed the British PM in a Sacha Baron Cohen movie?","Michael Gambon","Charles Dance","Richard E. Grant",0,7
-"Sting was considered for a major part in which of these 80s movies?","The Terminator","Tron","Blade Runner",0,12
-"Which of these classic ’80s movies spawned a theatrically-released sequel?","E.T.","Gremlins","The Goonies",1,6
-"Which of these words features in the title of the third “Transformers” movie?","Knight","Dark","Fallen",1,7
-"What is the name of the sister of Donnie Darko who is the lead character in the movie’s sequel?","Rose","Samantha","Elizabeth",1,8
-"The director of the first Bond movie also directed which of the following in their big-screen acting debut?","Cliff Richard","Barbra Streisand","The Beatles",0,11
-"Which of these directors co-wrote the story for the 2013 movie “Man of Steel”?","Zack Snyder","Christopher Nolan","Patty Jenkins",1,8
-"Which of these movies does NOT begin with a traffic jam?","La La Land","World War Z","Falling Down",1,11
-"Which of these vehicles feature heavily in “The Fast and the Furious” movies?","Unicycles","Wheelbarrows","Cars",2,1
-"Which of these was NOT a rejected character for Disney's “Snow White and the Seven Dwarfs?”","Baldy","Flabby","Loosy",2,14
-"Which of these actors appeared in “Saving Private Ryan”?","Edward Norton","Vin Diesel","George Clooney",1,5
-"Which of these movies features a parody of The Beatles in the form of birds?","Bedknobs and Broomsticks","The Jungle Book","Mary Poppins",1,5
-"Which of these comedians wrote and directed the 2017 Oscar winner “Get Out”?","Brendan O'Carroll","Jordan Peele","Michael McIntyre",1,4
-"Which of these actors did NOT star in the first movie they directed?","Nicolas Cage","Jack Nicholson","Chris Evans",1,11
-"What is the title of the cult 1991 movie starring Anthony Hopkins as Hannibal Lecter?","The Hooting of the Owls","The Mooing of the Cows","The Silence of the Lambs",2,1
-"Which of these 80s movies won an Academy Award for Best Picture?","The Last Emperor","The Color Purple","E.T.",0,10
-"Where did George Lucas go when the premiere of the very first “Star Wars” movie was taking place?","Iceland","Tunisia","Hawaii",2,11
-"“Old West Action” is an anagram of which actor's name?","John Wayne","Clint Eastwood","James Stewart",1,3
-"Who is the star of the follow-up to the 1993 hit film “The Fugitive”?","Harrison Ford","Tommy Lee Jones","David Janssen",1,12
-"Dolph Lundgren made his first cinematic appearance in which of these movies?","Masters of the Universe","A View to a Kill","Rocky IV",1,10
-"In the movie “Dirty Dancing” Patrick Swayze's character protests that “Nobody puts Baby” where?","In a corner","Down the chimney","In a wheelbarrow",0,4
-"Which of these directors has been nominated for a Razzie as Worst Director?","Eli Roth","Steven Spielberg","Stanley Kubrick",2,7
-"James Bond actor Roger Moore had a phobia of which of the following?","Guns","Driving","Skiing",0,8
-"A Cannes Festival parody of which footballer getting involved in politics was a big success this year?","Diego Maradona","Cristiano Ronaldo","Luis Suárez",1,10
-"Who is the youngest ever nominee for the Best Director award at the Oscars?","Sofia Coppola","Damien Chazelle","John Singleton",2,9
-"Which Alfred Hitchcock movie had a sequel made 31 years later, featuring the original female lead?","Rear Window","The Birds","Psycho",1,12
-"What is the last name of Sylvester Stallone's fictional boxer whose forename is Rocky?","Bluebottle","Balboa","Balsamic",1,2
-"The 80s hit movie “Three Men and a Baby” was directed by an actor best-known for playing which part?","Seinfeld","Starsky","Spock",2,8
-"In the 007 movie “Goldfinger” what does the main villain's henchman famously use as a weapon?","Umbrella","Bowler hat","Pocket watch",1,4
-"Which of these actors has NOT played a Nobel Peace Prize winner in a movie?","Denzel Washington","Dennis Haysbert","Juliet Stevenson",0,11
-"Two different actors won Oscars for playing the same character with what first name?","Robert","Vito","Michael",1,12
-"Which of these classic Hitchcock movies is NOT adapted from an existing novel?","North by Northwest","Vertigo","Psycho",0,14
-"Which of these actors has NOT featured in a Christopher Nolan movie?","Robin Williams","Andy Serkis","Bryce Dallas Howard",2,11
-"What is the name of the car that Batman drives?","Topcatmobile","Batmobile","Chitchatmobile",1,1
-"The box set of which movie had DVD commentaries by people who both loved it and hated it?","Kill Bill","Die Hard","The Matrix",2,12
-"Which of these Disney characters was voiced by Matthew Broderick?","Gaston","Jafar","Simba",2,5
-"Which of these is NOT the title of a dance-themed movie?","Billy Elliot","Step Up","Dances With Wolves",2,5
-"Which of these actors has NOT played Hulk's alter ego, Dr. Banner?","Kevin Bacon","Eric Bana","Bill Bixby",0,6
-"Which movie director had a cameo role in "It's Always Sunny in Philadelphia"?","Quentin Tarantino","Ron Howard","Guillermo del Toro",2,9
-"Of these actors, which one has starred in the most movies directed by Quentin Tarantino?","Christoph Waltz","Uma Thurman","Samuel L. Jackson",2,5
-"Which of these movies was the first to be released as a PG-13 in the US?","Red Dawn","The Color Purple","Dirty Dancing",0,8
-"Which of these movies had the most Oscar nominations?","Despicable Me 2","The Shining","Groundhog Day",0,5
-"Who did Michael Jackson play in the 1970s' movie remake of “The Wizard of Oz”?","The Tin Man","The Lion","The Scarecrow",2,8
-"Which pop star played Whitney Houston's manager in “The Bodyguard”?","Jon Bon Jovi","Phil Collins","Gary Kemp",2,7
-"Which of these actors has never appeared in a movie sequel?","Leonardo DiCaprio","Russell Crowe","Kate Winslet",1,12
-"The Lucasfilm-developed THX theater standard debuted with what film?","Raiders of the Lost Ark","Return of the Jedi","The Empire Strikes Back",1,12
-"Which of these actors won two Oscars before the age of 30?","Katharine Hepburn","Greta Garbo","Luise Rainer",2,10
-"A Wikipedia disagreement about which actor's nationality has reportedly resulted in over 6,000 edits to her page?","Nicole Kidman","Jennifer Aniston","Charlize Theron",1,12
-"Which actor's brother sometimes steps in to provide his voice when he is unavailable?","Samuel L. Jackson","Will Ferrell","Tom Hanks",2,9
-"Of these movies, which has the most mistakes according to moviemistakes.com?","Scary Movie 3","Jurassic Park","The Birds",2,12
-"Tom Cruise has been in six “Mission” movies which are described as what in the title?","Impossible","Quite dodgy","Borderline tricky",0,1
-"The closing line of which movie is “That’ll do, pig. That’ll do”?","Bee Movie","Babe","Chicken Little",1,3
-"Jesse Eisenberg portrayed which of these tech entrepreneurs in “The Social Network”?","Bill Gates","Mark Zuckerberg","Steve Jobs",1,4
-"Which character in “The Dark Knight” says the line “Why so serious”?","The Joker","Scarecrow","Two-Face",0,5
-"Which of these actors made their movie debut in “Back to the Future Part II”?","Macaulay Culkin","Elijah Wood","Tobey Maguire",1,7
-"Which of these actors appeared in three of the movies shortlisted for the 2018 Best Picture Oscar?","Woody Harrelson","Michael Stuhlbarg","Octavia Spencer",1,8
-"The Clint Eastwood movie “Pale Rider” used the theme music from which TV programme in its trailer?","Channel 4 News","Top Gear","Doctor Who",0,9
-"Of these three true story movies, which is actually the “truest”, based on statistical analysis?","The King's Speech","The Wolf of Wall Street","Bridge of Spies",2,10
-"Which of these did NOT feature in Empire’s 2017 list of the 100 greatest movies of all time?","Dr. Strangelove","Amélie","Avengers Assemble",0,11
-"Which of these actors has played Winston Churchill in a feature-length movie?","Anthony Hopkins","Robbie Coltrane","Christian Slater",2,12
-"“Where's my super suit” is a line spoken by which of these movie characters?","Superman","Frozone","Black Panther",1,4
-"Which of these movies was the first to be preceded by the Amblin Entertainment logo, the company founded by Steven Spielberg?","The Goonies","Gremlins","ET",1,10
-"Which of these directors owns the Skywalker Ranch in California?","Steven Spielberg","Francis Ford Coppola","George Lucas",2,5
-"Of these three performers, who ranked highest on Forbes’ 2018 list of highest-paid actors?","Jackie Chan","Adam Sandler","Will Smith",0,10
-"Which of these film characters had a pet llama named Tina?","Hans Gruber","Paul Blart","Napoleon Dynamite",2,3
-"Harrison Ford played what fictional archaeologist in “Raiders of the Lost Ark”?","Texarkana Johnson","Indiana Jones","Canada Gord",1,1
-"Who was the first person born in the 80s to have been nominated for the Best Actor Oscar?","Heath Ledger","Eddie Redmayne","Ryan Gosling",2,11
-"Which of these people appeared in the movie “The Sixth Sense”?","Laura Linney","Donnie Wahlberg","Mark Wahlberg",1,8
-"Which British sitcom's leading lady had a supporting role in “Wonder Woman”?","The Office","The Inbetweeners","Peep Show",0,4
-"Which of these actors has NOT played both twin brothers in the same movie?","Tom Hardy","Jeremy Irons","Clive Owen",2,8
-"In which movie was the character Kevin McCallister unwittingly abandoned by his family?","Nobody's Alone","Everyone's Home","Home Alone",2,2
-"Members of which musical family auditioned to be in the movie 'The Sound of Music'?","The Gibb Brothers","The Osmonds","The Carpenters",1,12
-"The script for which of these Oscar-winning movies was inspired by a floating plastic bag?","American Beauty","The Shape of Water","Birdman",0,7
-"In 'Terminator: Genisys', the offices of the Cyberdyne organisation were based on those of which real company?","Facebook","Oracle","Google",1,11
-"Which of these movies takes place in the 22nd century?","Avatar","The Purge","Prometheus",0,6
-"Which Bond villain plans to recreate humanity with himself at the head of the human race?","Drax","Goldfinger","Scaramanga",0,11
-"The actress who voiced the Snow Queen in “Frozen” also appeared in which other Disney movie?","Tangled","Enchanted","Moana",1,6
-"Which actor's cameo role in "ET" was cut from the final version of the movie?","Billy Crystal","Robin Williams","Harrison Ford",2,7
-"Who made his feature film debut in “Die Hard”?","Jeremy Irons","Bruce Willis","Alan Rickman",2,6
-"Who played the title role in the 1990s movie “What's Eating Gilbert Grape”?","Tobey Maguire","Leonardo DiCaprio","Johnny Depp",2,7
-"Which actor was replaced by Michael J Fox in “Back to the Future” after just a few weeks of filming?","Kiefer Sutherland","Matthew Modine","Eric Stoltz",2,11
-"CASE and TARS are robots from which sci-fi movie?","Interstellar","Ex Machina","The Terminator",0,5
-"Which of these Disney movies was based on a storyline written for a novelty reading toy?","Bambi","The Love Bug","Dumbo",2,12
-"Which of these Tarantino movies begins with an English actor talking?","Reservoir Dogs","The Hateful Eight","Pulp Fiction",2,8
-"Whose collection of jewels were known as the “crown jewels of Hollywood”?","Marilyn Monroe","Elizabeth Taylor","Grace Kelly",1,6
-"Samuel L. Jackson almost quit “Snakes on a Plane” when producers threatened to change what?","Their choice of reptile","His salary","Movie’s name",2,9
-"In “Grease,” the actor playing what character famously had to be sewn into their pants for the closing song?","Sandy","Danny","Rizzo",0,12
-"Movie producer Hal Roach Sr. is said to have coined which of these terms?","Cut to the chase","Lights, camera, action!","In the can",0,9
-"Which of these volcanoes shares its name with a Disney character?","Pacaya","Stromboli","Tambora",1,4
-"Whose performance as Peeves was cut from the first “Harry Potter” movie?","Ricky Gervais","Richard Griffiths","Rik Mayall",2,6
-"In a recent Twitter challenge, which movie's plot was described as “the saddest opening montage ever”?","Saving Private Ryan","Up","Bambi",1,6
-"Which of these is a popular Vin Diesel action franchise?","xXx","hHh","aAa",0,2
-"Which of these songs features on the “Pitch Perfect 2” soundtrack?","Lights","Flashlight","Firework",1,11
-"What is actor Dwayne Johnson's wrestling name?","The Brick","The Pebble","The Rock",2,2
-"The composer of music for “The Shining” also created the soundtrack for which of these movies?","Robocop","Total Recall","Tron",2,10
-"Which of these movies features more than 10 characters in its cast?","Cast Away","Hard Candy","10 Cloverfield Lane",0,8
-"Marilyn Monroe's final, unfinished movie was later remade into which of these?","Move Over, Darling","Viva Las Vegas","Breakfast at Tiffany's",0,11
-"Which of these movies is based on a British short film starring Cherie Lunghi?","Fatal Attraction","Basic Instinct","Indecent Proposal",0,11
-"What is the name of the energy sword featured in the Star Wars franchise?","Sabretooth","Lightsaber","Müllerlight",1,2
-"Which of these movies did NOT feature Marlon Brando?","Goodfellas","The Godfather","Apocalypse Now",0,5
-"Who was the first Golden Globe nominee for their role as a Marvel character?","Hugh Jackman","Chris Evans","Ryan Reynolds",2,10
-"In the 80s, which Oscar-nominated actor portrayed lead characters in movies about country singing and football?","Sylvester Stallone","Jeff Bridges","Kevin Costner",0,9
-"Which of these animals has featured in an Academy Award-winning movie?","Popcorn Deelites","Punxsutawney Phil","Orangey",2,12
-"Which character did Michael Caine play in “The Muppet Christmas Carol”?","Ebenezer Scrooge","Ed Sheeran","Edward Scissorhands",0,2
-"In “The Exorcist”, what is the name of the demon that possesses Regan?","Pikachu","Pazuzu","Uvavu",1,5
-"Which of these animated movies does NOT star a knighted actor?","The Emoji Movie","Fantastic Mr. Fox","Wreck-It Ralph",2,6
-"Which of these BBC radio personalities featured in the 2006 movie “Children of Men”?","DJ Nihal","Scott Mills","John Humphrys",0,11
-"Which movie's poster depicts a lonely astronaut above the line “950,000 miles from home”?","Life","Moon","Gravity",1,8
-"“Sister Suffragette" is a song from which musical film?","Oliver!","Mary Poppins","The Sound of Music",1,4
+"A horror comedy movie of 1981 is entitled what in London?","An American Werewolf","A Mexican Donkey","A Canadian Moose",0,1
+"In the movie “Team America: World Police” where is the team's base located?","Mount Rushmore","Alcatraz","Grand Canyon",0,8
+"A bathroom in a Californian sushi restaurant is dedicated to which of these Hollywood stars?","Bradley Cooper","Mark Wahlberg","Ryan Gosling",2,12
+"Which word completes the title of the Disney classic “Beauty and the...”?","Fridge Magnet","Traffic Camera","Beast",2,1
+"Which of these actors has NOT portrayed Lawrence of Arabia on screen?","Robert Pattinson","Michael Fassbender","Ralph Fiennes",1,10
+"Gomez, Morticia, and Pugsley are members of which family?","Kardashian","Beckham","Addams",2,1
+"Which of these stars was originally due to direct “The Silence of the Lambs”?","Clint Eastwood","Al Pacino","Gene Hackman",2,6
+"The writer of which of these movies once took part in a TV game show presented by Groucho Marx?","The Omen","The Exorcist","Halloween",1,9
+"What was the setting for most of the action in the last “Back to the Future” film?","1950s","Old West","21st century",1,7
+"Which of the following is a 1968 movie starring Charlton Heston?","Land of the Unicorns","Moon of the Gnomes","Planet of the Apes",2,1
+"Which of these is the title of a 1990 movie starring Arnold Schwarzenegger?","Total Recall","Abject Amnesia","Partial Memory",0,2
+"Who directed the 2018 movie “Ready Player One”?","Ryan Coogler","Bradley Cooper","Steven Spielberg",2,3
+"Which of the following starred in “Avatar” as well as the “Star Trek” and “Guardians of the Galaxy” franchises?","Zoe Saldana","Sigourney Weaver","Karen Gillan",0,4
+"The “Blade Runner” movies are loosely based on a work by which author?","Arthur C. Clarke","Philip K. Dick","Isaac Asimov",1,5
+"What was George Lucas’ original choice of surname for Luke’s character in “Star Wars”?","Starkiller","Starwalker","Starflier",0,6
+"Which of these movies was NOT nominated for a Best Picture Academy Award?","Interstellar","The Martian","Gravity",0,7
+"Which of these movies was adapted from a short film?","Inception","District 9","Ex Machina",1,8
+"One of the co-writers of 'Venom' was also an uncredited writer on which other Tom Hardy movie?","Mad Max: Fury Road","This Means War","Bronson",2,9
+"Uma Thurman's character in “Gattaca” was named after which type of scientist?","A geologist","An astronomer","A geneticist",1,10
+"Which of these comics spent several weeks in screen tests for the role of an ape in '2001: A Space Odyssey'?","Spike Milligan","Ronnie Corbett","John Cleese",1,11
+"Which movie was originally going to be about a World War II bomber crew flying over Japan?","Event Horizon","Innerspace","Alien",2,12
+"What does Batman ask Superman during a fight scene in the 2016 movie “Dawn of Justice”?","Tell me, do you knit?","Tell me, do you sneeze?","Tell me, do you bleed?",2,4
+"Which of these movies did NOT earn Leonardo DiCaprio a best actor Oscar nomination?","Blood Diamond","Titanic","The Aviator",1,7
+"Which actor famously said the words “alright, alright, alright” in his breakthrough movie role?","Johnny Depp","Matthew McConaughey","Christian Bale",1,4
+"Which of these 2018 movies is based on true events?","Tag","A Quiet Place","Game Night",0,8
+"It's been reported this week that a movie version of which TV programme might be in the works?","Modern Family","Breaking Bad","The Big Bang Theory",1,2
+"Hugh Grant played the lead role in the movie “Four Weddings and a” what?","Baby shower","School trip","Funeral",2,1
+"Which Danny played Arnold Schwarzenegger's twin in a hit 1988 comedy?","Danny Dyer","Danny Baker","Danny DeVito",2,3
+"Which of these Star Wars movies made the highest amount at the worldwide box office?","Revenge of the Sith","The Phantom Menace","The Empire Strikes Back",1,11
+"Mel Gibson and Tom Hardy have both portrayed which of these movie characters?","Tedious Tom","Mad Max","Dull Dan",1,2
+"Which classic movie line is NOT from “Jerry Maguire”?","You had me at “Hello”","To me, you are perfect","You complete me",1,9
+"Which of these is a recurring character in the Bond movie franchise?","Miss Moneypenny","Madame Halfasixpence","Lady Brassfarthing",0,1
+"Which of these foods gives its name to a type of western?","Gelato","Pizza Margherita","Spaghetti",2,2
+"Ethan Hunt receives which of these books at the start of the newest “Mission Impossible” movie?","The Beano Annual","The Da Vinci Code","The Odyssey",2,3
+"Which of these actors played one of Freddy Krueger's victims in “A Nightmare on Elm Street”?","Robert Downey Jr.","Johnny Depp","Leonardo DiCaprio",1,4
+"Which of these was Natalie Portman's feature movie debut?","The Phantom Menace","Heat","Leon",2,5
+"Which of these actors was born in the US?","Bruce Willis","Ryan Gosling","John Travolta",2,6
+"Which 90s cartoon series is being developed into a live action movie scheduled for a 2020 release?","The Powerpuff Girls","Beavis and Butt-Head","Rugrats",2,7
+"Which of these movies was adapted from a short story?","Arrival","Lucy","Her",0,8
+"Which of these stars appeared in a hip hop video to promote an 80s crime caper?","Kevin Costner","Michael J. Fox","Tom Hanks",2,9
+"Which of these movies received four acting Oscar nominations but was NOT nominated for Best Picture?","Silver Linings Playbook","American Hustle","Doubt",2,10
+"Which of these directors named his movie company after a medical term?","Christopher Nolan","Quentin Tarantino","James Cameron",0,11
+"Which film studio's opening logo is often accompanied by a tune from a famous Humphrey Bogart movie?","Universal","Warner Bros","Paramount",1,12
+"“Star Wars” and “Interstellar” are examples of which movie genre?","Hi-fi","Wi-fi","Sci-fi",2,1
+"Which of these Hollywood actors did NOT attend grammar school in England as a child?","Gary Cooper","Cary Grant","Mickey Rooney",2,11
+"Before Daniel Radcliffe was cast, which of these actors was considered for the part of Harry Potter?","Zac Efron","Freddie Highmore","Haley Joel Osment",2,9
+"A “doll” representing which actor caused amusement this week for not looking like him?","Idris Elba","Daniel Craig","Matt Damon",0,3
+"Which of these figures has received the highest total number of BAFTA nominations?","Christopher Nolan","Mike Leigh","Ridley Scott",1,12
+"Which season completes the movie title “I Know What You Did Last...”?","Summer","Autumn","Winter",0,2
+"Who recorded dialogue for a character in “Frozen” that was later edited out of the movie?","Jack Whitehall","Jack Gleeson","Jack Black",0,10
+"As a young actor which of these performers appeared in a movie starring Judy Garland?","Anthony Hopkins","Tony Robinson","Jeremy Irons",1,18
+"Which of these movies was nominated for this year's Best Picture Oscar?","Lady Bird","Grasshopper","Daddy Long Legs",0,1
+"Clint Eastwood starred in the 1979 movie “Escape from” where?","Wormwood Scrubs","Azkaban","Alcatraz",2,2
+"The Palme d'Or is an award given for the best film at which major film festival?","Cannes Film Festival","Sundance Film Festival","Venice Film Festival",0,3
+"In the Bond film “Skyfall”, to what does the title refer?","A country mansion","A military operation","A weather phenomenon",0,4
+"The opening scene of Quentin Tarantino's debut release involves a conversation about which of these?","McDonald's","Mardi Gras","Madonna",2,5
+"Which one of these stars has NOT won an acting Oscar?","Helen Hunt","Amy Adams","Susan Sarandon",1,6
+"Which of these groups had a cameo appearance in “The King of Comedy”?","The Band","The Clash","U2",1,7
+"What did NASA choose as its worst science fiction movie of all time?","Armageddon","2012","The Core",1,8
+"Which of these British movie directors once filmed an ad for Sonic the Hedgehog?","Kevin Macdonald","Tom Hooper","Sam Mendes",1,9
+"The first movie to be commercially released in CinemaScope starred which of these actors?","Marlon Brando","Richard Burton","John Wayne",1,10
+"Which of these actors has written a comic book series about a vigilante “superhero”?","Ryan Reynolds","Mark Hamill","Samuel L Jackson",1,11
+"Which of these actors has reportedly made a film that is not due to be released until the early 22nd century?","Keanu Reeves","John Malkovich","William Shatner",1,12
+"Who was cast as Lincoln in the 2012 movie before the part went to Daniel Day-Lewis?","Christian Bale","Tom Hanks","Liam Neeson",2,10
+"Which mobile operator has also produced the most expensive movie in the history of Bollywood?","Lebara","Virgin Mobile","Lycamobile",2,10
+"Jedi derive power from which of these?","Spinach","C-3PO's complaints","The Force",2,1
+"Which of these actors has NOT appeared in a Star Wars movie?","Dominic West","Joel Edgerton","Aiden Gillen",2,3
+"Which of these is the correct “Empire Strikes Back” quotation?","No, I am your father","I am your father, Luke","Luke, I am your father",0,4
+"Which of these characters is from Corellia?","Jabba the Hutt","Jar Jar Binks","Han Solo",2,5
+"Which of these directors appeared in “The Phantom Menace”?","Quentin Tarantino","Sofia Coppola","Wes Anderson",1,6
+"Which of these planets contains a city in its clouds?","Dagobah","Bespin","Naboo",1,7
+"AT-TE stands for “All Terrain” what?","Training Enhancer","Tactical Enforcer","Trooper Equipment",1,8
+"Which of these is NOT a member of the Jedi Council in “Attack of the Clones”?","Plo Koon","Yoda","Obi-Wan Kenobi",2,9
+"As explained in “Rogue One”, which of the following powers the Death Star's superlaser?","Tibanna gas","Rhydonium","Kyber crystals",2,10
+"Which of these Star Wars movies does NOT feature the “Imperial March” theme?","A New Hope","The Phantom Menace","Rogue One",0,11
+"Which of these characters made their first appearance in “Return of the Jedi”?","Nien Nunb","Zuckuss","Wes Janson",0,12
+"What did Margot Robbie reveal as the main title of the new Harley Quinn movie?","Little Black Book","Mother Panic","Birds of Prey",2,9
+"The original as well as a cover version of which James Bond theme were both nominated for a Grammy?","Diamonds Are Forever","Live and Let Die","Goldfinger",1,7
+"Prior to landing the role of 007, Pierce Brosnan appeared in a series of 80s TV ads for which type of drink?","Irish whiskey","Fizzy pop","Mineral water",1,8
+"Which of these movies failed to win any Academy Awards?","The Wolf of Wall Street","Zero Dark Thirty","Spectre",0,12
+"Quentin Tarantino cited which horror movie as a major influence on “The Hateful Eight”?","The Shining","The Cabin in the Woods","The Thing",2,16
+"Which of these Shakespeare characters has been played by Leonardo DiCaprio?","Romeo","King Lear","Hamlet",0,4
+"Which of these is a 2016 remake of a classic Western from the 1960s?","The Terrific Five","The Super-duper Six","The Magnificent Seven",2,1
+"In the 2017 movie “Justice League”, who played the role of Batman's butler Alfred?","Jeremy Irons","Jeremy Kyle","Jeremy Clarkson",0,2
+"Which instrument does Will Ferrell play in “Anchorman”?","Jazz flute","Bagpipes","Glass harmonica",0,3
+"In “The Silence of the Lambs”, Dr Hannibal Lecter is described as having which former profession?","Racing driver","Interior designer","Psychiatrist",2,4
+"Who plays the Sheriff of Nottingham in the most recent Robin Hood movie?","Ben Mendelsohn","Tim Minchin","Jamie Foxx",0,5
+"Which of these actor's performances was cut from “The Life of Pi” after the director changed his mind?","Tobey Maguire","Elijah Wood","Viggo Mortensen",0,6
+"In “The Exorcist”, which actress was the voice behind most of the demon's dialogue?","Ferrari MacOxford","Ford O'Yale","Mercedes McCambridge",2,7
+"Mica Levi composed the soundtrack for which of these sci-fi movies?","Under the Skin","Moon","Her",0,8
+"Which of these movies was adapted from a Japanese novel?","Edge of Tomorrow","Vanilla Sky","Looper",0,9
+"The movie 'Interview with the Vampire' featured an actor famous for appearing in which sitcom?","Fawlty Towers","Blackadder","Only Fools and Horses",2,10
+"A movie by which of these directors did NOT win the Palme d'Or at Cannes in the 80s?","Martin Scorsese","Wim Wenders","Steven Soderbergh",0,11
+"Who originally bought the rights to Damian Chazelle's recent movie about Neil Armstrong?","Steven Spielberg","Christopher Nolan","Clint Eastwood",2,12
+"Which of these is a movie based on an 80s television series of the same name?","5 Backstreet Boys","21 Jump Street","10 Downing Street",1,2
+"China has banned the showing of movies containing which type of content?","Extraterrestrials","Superheroes","Time travel",2,7
+"Thor is most often associated with which of these objects?","A yo-yo","A hammer","A feather duster",1,1
+"Which Chris does NOT play an Avenger in the Marvel Cinematic Universe?","Tarrant","Evans","Hemsworth",0,2
+"Which of these materials is interwoven into Black Panther's suit?","Batmanium","Vibranium","Kryptonite",1,3
+"In “Guardians of the Galaxy”, what is the title of Quill's mixtape?","Awesome Mix Vol. 1","Galaxy Sounds","Throwback Grooves",0,4
+"How does Iron Man introduce Spider-Man at the airport in “Captain America: Civil War”?","Underoos","My secret son","Spider-Boy",0,5
+"Which of these characters is NOT introduced during the end credits of “The Winter Soldier”?","Scarlet Witch","Quicksilver","Proxima Midnight",2,6
+"In which movie is Stan Lee mistaken for Larry King?","Iron Man 2","Spider-Man: Homecoming","Doctor Strange",0,7
+"What is the wi-fi password that Mordo hands to Doctor Strange?","Shadowland","Shamballa","Wakanda",1,8
+"In his first standalone movie, what is the name on Thor’s driving licence?","Eric Masterson","Kenneth Branagh","Dr. Donald Blake",2,9
+"In 2012's “Avengers Assemble”, where does Natasha Romanoff first meet Bruce Banner?","Calcutta","Algiers","Karachi",0,10
+"Which book causes Scott to cry in “Ant-Man and the Wasp”?","The Notebook","The Fault in Our Stars","P.S. I Love You",1,11
+"Which of these does NOT feature in the UK version of Captain America's list of things to catch up on?","Sean Connery","Monty Python","Thai Food",1,12

@@ -33,6 +33,7 @@ def draw_menu():
     menubg.draw()
     draw_categories()
 
+
 def draw_categories():
     global selectedCategoryIdx, quiz
     y = 190
@@ -86,6 +87,7 @@ def draw_score():
     screen.draw.text('Score:', (620, 400), color='black', fontname='pressstart2p')
     screen.draw.text(str(quiz.score), (620, 450), color='black', fontname='pressstart2p')
 
+
 def on_key_down(key):
     global selectedCategoryIdx, quiz, currentScreen, MENU, QUIZ, selectedAnswerIdx
     if currentScreen == MENU:
@@ -110,3 +112,6 @@ def on_key_down(key):
             selectedAnswerIdx +=1
         elif key == keys.A:
             currentScreen = ANSWER
+            clock.schedule_unique(quiz.next_question(), 3)
+
+        

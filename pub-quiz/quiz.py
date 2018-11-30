@@ -1,6 +1,8 @@
 import csv
 import os
 from question import Question
+from random import shuffle
+
 
 class Quiz:
 
@@ -19,16 +21,17 @@ class Quiz:
             with open('questions/' + filename) as csvfile:
                 category_questions = []
                 rows = csv.reader(csvfile)
-                next(rows, None) # skip the header
                 for row in rows:
-                    category_questions.append(Question(row[0], row[1], row[2], row[3], row[4]))
+                    category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
                 category = filename.replace('-', ' ').replace('.csv', '').title()
                 questions[category] = category_questions
 
         return questions
 
     def get_questions(self):
-        return self.questions[self.currentCategory]
+        category_questions = self.questions[self.currentCategory]
+        shuffle(category_questions)
+        return category_questions[:10]
 
     def get_question(self):
         return self.get_questions()[self.currentQuestion]
