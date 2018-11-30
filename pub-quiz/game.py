@@ -28,8 +28,6 @@ def draw():
 
 
 def draw_menu():
-    # draw_text('Pub Quiz', (50, 30))
-    # draw_text('Pick a category', (50, 60))
     menubg.draw()
     draw_categories()
 
@@ -51,15 +49,13 @@ def draw_quiz():
     questbg.draw()
     question = quiz.get_question()
     draw_text(quiz.currentCategory, (620, 30))
-    draw_text(question.question, (50, 70))
+    screen.draw.textbox(question.question, (40, 40, 490, 230), align='left', fontname='pressstart2p', lineheight=1.2)
     draw_score()
-    y = 380
+    y = 360
     for idx, answer in enumerate(question.answers):
         if idx == selectedAnswerIdx:
-            draw_text('>', (160, y), 'blue')
-            draw_text(answer, (180, y), 'blue')
-        else:
-            draw_text(answer, (160, y), 'blue')
+            draw_text('<', (500, y + 25), 'blue')
+        screen.draw.textbox(answer, (130, y, 350, 60), align='left', fontname='pressstart2p', color='blue', lineheight=1.2)
         y += 80
 
 
@@ -68,19 +64,19 @@ def draw_answer_screen():
     question = quiz.get_question()
     draw_text(quiz.currentCategory, (620, 30))
     draw_text(question.question, (50, 70))
-    y = 380
+    y = 360
+    if quiz.answered_correctly():
+        symbol = '\u2714'
+        colour = 'blue'
+    else:
+        symbol = '\u2718'
+        colour = 'red'
     for idx, answer in enumerate(question.answers):
         if question.answer == idx:
-            draw_symbol('\u2714', (160, y), 'blue')
-        else:
-            draw_symbol('\u2718', (160, y), 'blue')
+            draw_symbol(symbol, (500, y), colour)
 
-        draw_text(answer, (180, y), 'blue')
-        y += 30
-    if quiz.mark_question(selectedAnswerIdx):
-        draw_text('Correct!', (160, 200))
-    else:
-        draw_text('Incorrect!', (160, 200))
+        screen.draw.textbox(answer, (130, y, 350, 60), align='left', fontname='pressstart2p', color='blue', lineheight=1.2)
+        y += 80
     draw_score()
 
 
@@ -108,18 +104,21 @@ def on_key_down(key):
 
     elif currentScreen == QUIZ:
         if key == keys.UP:
-            selectedAnswerIdx -= 1
+            if selectedAnswerIdx != 0:
+                selectedAnswerIdx -= 1
         elif key == keys.DOWN:
-            selectedAnswerIdx +=1
+            if selectedAnswerIdx != 2:
+                selectedAnswerIdx += 1
         elif key == keys.A:
+            quiz.mark_question(selectedAnswerIdx)
             currentScreen = ANSWER
             clock.schedule_unique(quiz.next_question(), 3)
 
 
 def draw_text(text, position, colour='white'):
-    screen.draw.text(text, position, color=colour, fontname='pressstart2p')
+    screen.draw.text(text, position, color=colour, fontname='pressstart2p', width=500)
 
 
 def draw_symbol(text, position, colour):
     position = (position[0], position[1] + 5)
-    screen.draw.text(text, position, color=colour, fontname='symbol')
+    screen.draw.text(text, position, color=colour, fontname='symbol', fontsize=80)

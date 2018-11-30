@@ -14,6 +14,7 @@ class Quiz:
         self.currentQuestion = 0
         self.roundEnded = False
         self.score = 0
+        self.givenAnswer = None
 
     def load_questions(self):
         questions = {}
@@ -36,9 +37,6 @@ class Quiz:
     def get_question(self):
         return self.get_questions()[self.currentQuestion]
 
-    def increment_score(self):
-        self.score += 1
-
     def set_category(self, categoryIdx):
         self.currentCategory = self.categories[categoryIdx]
 
@@ -47,10 +45,15 @@ class Quiz:
             self.roundEnded = True
         else:
             self.currentQuestion += 1
+            self.givenAnswer = None
 
     def mark_question(self, answerIdx):
-        if self.get_question().answer == answerIdx:
+        self.givenAnswer = answerIdx
+        if self.answered_correctly():
             self.score += 1
             return True
 
         return False
+
+    def answered_correctly(self):
+        return self.givenAnswer == self.get_question().answer
