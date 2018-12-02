@@ -15,6 +15,8 @@ WIN_SCREEN = 'win_screen'
 currentScreen = MENU
 questionNo = 0
 menubg = Actor('menu-bg')
+clockhand = Actor('clockhand', anchor=(14,59))
+clockhand.pos=(690,170)
 menubg.pos=(400,300)
 questbg = Actor('background')
 questbg.pos = (400,300)
@@ -77,6 +79,7 @@ def draw_quiz_header(question):
 def draw_quiz():
     question = quiz.get_question()
     draw_quiz_header(question)
+    draw_clock()
     y = 360
     for idx, answer in enumerate(question.answers):
         if idx == selectedAnswerIdx:
@@ -84,6 +87,9 @@ def draw_quiz():
         screen.draw.textbox(answer, (130, y, 350, 60), align='left', fontname='pressstart2p', color='blue', lineheight=1.2)
         y += 80
 
+def draw_clock():
+    clockhand.draw()
+    draw_text(str(quiz.time_remaining), (685, 190), colour='blue', fontsize=40)
 
 def draw_answer_screen():
     question = quiz.get_question()
@@ -111,6 +117,9 @@ def draw_score():
 def draw_game_over_screen():
     gameoverbg.draw()
 
+def return_to_menu():
+    global currentScreen
+    currentScreen = MENU
 
 def draw_win_screen():
     global current_win_frame, win_frames, win_frame_dir_fwd
@@ -129,7 +138,7 @@ def draw_win_screen():
             next_frame = 1
 
     current_win_frame = next_frame
-
+    clock.schedule_unique(draw, 0.25)
 
 def on_key_down(key):
     global selectedCategoryIdx, quiz, currentScreen, MENU, QUIZ, selectedAnswerIdx
@@ -162,6 +171,7 @@ def on_key_down(key):
                 clock.schedule_unique(next_question, 3)
             elif quiz.tryAgainUsed:
                 currentScreen = GAME_OVER
+                clock.schedule_unique(return_to_menu, 5)
             else:
                 quiz.use_try_again()
 
@@ -174,9 +184,8 @@ def next_question():
         currentScreen = WIN_SCREEN
 
 
-def draw_text(text, position, colour='white'):
-    screen.draw.text(text, position, color=colour, fontname='pressstart2p', width=500)
-
+def draw_text(text, position, colour='white', fontsize=30):
+    screen.draw.text(text, position, color=colour, fontname='pressstart2p', width=500, fontsize=fontsize)
 
 def draw_symbol(text, position, colour):
     position = (position[0], position[1] + 5)

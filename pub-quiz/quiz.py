@@ -15,7 +15,7 @@ class Quiz:
         self.score = 0
         self.givenAnswer = None
         self.tryAgainUsed = False
-        self.time_remaining = 30
+        self.time_remaining = 15
         self.timer_running = False
 
     def load_questions(self):
