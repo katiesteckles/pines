@@ -62,8 +62,8 @@ def draw_categories():
         else:
             text = category
 
-        draw_text(text, (90, y), 'red')
-        y += 50
+        draw_category(text, (90, y), 'red')
+        y += 30
 
 
 def draw_quiz_header(question):
@@ -186,6 +186,9 @@ def next_question():
 
 def draw_text(text, position, colour='white', fontsize=30):
     screen.draw.text(text, position, color=colour, fontname='pressstart2p', width=500, fontsize=fontsize)
+
+def draw_category(text, position, colour='white', fontsize=15):
+    screen.draw.text(text, position, color=colour, fontname='pressstart2p', width=250, fontsize=fontsize)
 
 def draw_symbol(text, position, colour):
     position = (position[0], position[1] + 5)
