@@ -1,4 +1,5 @@
 from quiz import Quiz
+from config import QUESTION_TIME_LIMIT
 
 WIDTH = 800
 HEIGHT = 600
@@ -90,9 +91,13 @@ def draw_quiz():
 
 
 def draw_clock():
-    clockhand.angle = -((15 - quiz.time_remaining) * 25)
+    global currentScreen
+    clockhand.angle = -((QUESTION_TIME_LIMIT - quiz.time_remaining) * (360 / QUESTION_TIME_LIMIT))
     clockhand.draw()
     draw_text(str(quiz.time_remaining), (650, 200), colour='blue', fontsize=30)
+
+    if quiz.time_remaining == 0:
+        currentScreen = GAME_OVER
 
 
 def draw_answer_screen():

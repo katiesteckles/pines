@@ -3,6 +3,8 @@ import os
 from question import Question
 from random import shuffle
 from pgzero import clock
+from config import QUESTION_TIME_LIMIT, NUMBER_OF_QUESTIONS_IN_ROUND
+
 
 class Quiz:
 
@@ -15,7 +17,7 @@ class Quiz:
         self.score = 0
         self.givenAnswer = None
         self.tryAgainUsed = False
-        self.time_remaining = 15
+        self.time_remaining = QUESTION_TIME_LIMIT
         self.timer_running = False
 
     def load_questions(self):
@@ -29,7 +31,9 @@ class Quiz:
                         category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
                     category = filename.replace('-', ' ').replace('.csv', '').title()
                     shuffle(category_questions)
-                    questions[category] = category_questions[:3]
+                    round_questions = category_questions[:NUMBER_OF_QUESTIONS_IN_ROUND]
+                    round_questions.sort(key=lambda q: q.difficulty)
+                    questions[category] = round_questions
 
         return questions
 
@@ -47,6 +51,7 @@ class Quiz:
             return False
         else:
             self.currentQuestion += 1
+            self.time_remaining = QUESTION_TIME_LIMIT
             self.givenAnswer = None
             return True
 
@@ -76,4 +81,5 @@ class Quiz:
 
     def use_try_again(self):
         self.tryAgainUsed = True
+        self.time_remaining = QUESTION_TIME_LIMIT
         self.get_question().answers[self.givenAnswer] = ''
