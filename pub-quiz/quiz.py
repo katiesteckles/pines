@@ -21,14 +21,15 @@ class Quiz:
     def load_questions(self):
         questions = {}
         for filename in os.listdir('questions'):
-            with open('questions/' + filename) as csvfile:
-                category_questions = []
-                rows = csv.reader(csvfile)
-                for row in rows:
-                    category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
-                category = filename.replace('-', ' ').replace('.csv', '').title()
-                shuffle(category_questions)
-                questions[category] = category_questions[:3]
+            if filename.endswith('.csv'):
+                with open('questions/' + filename) as csvfile:
+                    category_questions = []
+                    rows = csv.reader(csvfile)
+                    for row in rows:
+                        category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
+                    category = filename.replace('-', ' ').replace('.csv', '').title()
+                    shuffle(category_questions)
+                    questions[category] = category_questions[:3]
 
         return questions
 
