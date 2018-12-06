@@ -94,7 +94,11 @@ def draw_clock():
     global currentScreen
     clockhand.angle = -((QUESTION_TIME_LIMIT - quiz.time_remaining) * (360 / QUESTION_TIME_LIMIT))
     clockhand.draw()
-    draw_text(str(quiz.time_remaining), (650, 200), colour='blue', fontsize=30)
+    if quiz.time_remaining <= 5:
+        colour = 'red'
+    else:
+        colour = 'blue'
+    screen.draw.textbox(str(quiz.time_remaining), (660, 200, 40, 40), align='center', color=colour, fontname='pressstart2p')
 
     if quiz.time_remaining == 0:
         currentScreen = GAME_OVER
