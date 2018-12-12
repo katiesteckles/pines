@@ -24,6 +24,7 @@ class Quiz:
             with open('questions/' + filename) as csvfile:
                 category_questions = []
                 rows = csv.reader(csvfile)
+                print(rows)
                 for row in rows:
                     category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
                 category = filename.replace('-', ' ').replace('.csv', '').title()
