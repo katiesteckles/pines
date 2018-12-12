@@ -23,30 +23,18 @@ class Quiz:
     def load_questions(self):
         questions = {}
         for filename in os.listdir('questions'):
-<<<<<<< HEAD
             with open('questions/' + filename) as csvfile:
-                category_questions = []
-                rows = csv.reader(csvfile)
-                print(rows)
-                for row in rows:
-                    category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
-                category = filename.replace('-', ' ').replace('.csv', '').title()
-                shuffle(category_questions)
-                questions[category] = category_questions[:3]
-=======
-            if filename.endswith('.csv'):
-                with open('questions/' + filename) as csvfile:
-                    category_questions = []
-                    rows = csv.reader(csvfile)
-                    for row in rows:
-                        category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
-                    category = filename.replace('-', ' ').replace('.csv', '').title()
-                    shuffle(category_questions)
-                    round_questions = category_questions[:NUMBER_OF_QUESTIONS_IN_ROUND]
-                    round_questions.sort(key=lambda q: q.difficulty)
-                    questions[category] = round_questions
->>>>>>> 0cb76e4723603e50d97990250498b4182d71210d
-
+                if filename.endswith('.csv'):
+                    with open('questions/' + filename) as csvfile:
+                        category_questions = []
+                        rows = csv.reader(csvfile)
+                        for row in rows:
+                            category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
+                        category = filename.replace('-', ' ').replace('.csv', '').title()
+                        shuffle(category_questions)
+                        round_questions = category_questions[:NUMBER_OF_QUESTIONS_IN_ROUND]
+                        round_questions.sort(key=lambda q: q.difficulty)
+                        questions[category] = round_questions
         return questions
 
     def get_questions(self):
