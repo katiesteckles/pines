@@ -23,6 +23,7 @@ class Quiz:
     def load_questions(self):
         questions = {}
         for filename in os.listdir('questions'):
+            print(filename)
             if filename.endswith('.csv'):
                 with open('questions/' + filename) as csvfile:
                     category_questions = []
