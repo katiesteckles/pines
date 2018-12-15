@@ -69,12 +69,12 @@ def draw_categories():
 
 def draw_quiz_header(question):
     questbg.draw()
-    draw_text(quiz.currentCategory, (620, 30))
+    screen.draw.textbox(quiz.currentCategory, (570, 20, 230, 60), align='center', fontname='pressstart2p')
     screen.draw.textbox(question.question, (40, 40, 490, 230), align='left', fontname='pressstart2p', lineheight=1.2)
     draw_score()
     draw_text(str(quiz.time_remaining), (190, 680))
     if not quiz.tryAgainUsed:
-        draw_text('try again', (560, 450))
+        draw_text('try again', (530, 450))
 
 
 def draw_quiz():
@@ -91,7 +91,7 @@ def draw_quiz():
 
 
 def draw_clock():
-    global currentScreen
+    global currentScreen, quiz
     clockhand.angle = -((QUESTION_TIME_LIMIT - quiz.time_remaining) * (360 / QUESTION_TIME_LIMIT))
     clockhand.draw()
     if quiz.time_remaining <= 5:
@@ -102,6 +102,7 @@ def draw_clock():
 
     if quiz.time_remaining == 0:
         currentScreen = GAME_OVER
+        clock.schedule_unique(return_to_menu, 5)
 
 
 def draw_answer_screen():
@@ -125,7 +126,7 @@ def draw_answer_screen():
 
 
 def draw_score():
-    draw_text('Score: ' + str(quiz.score), (560, 400), 'black')
+    draw_text('Score: ' + str(quiz.score), (540, 400), 'black')
 
 
 def draw_game_over_screen():
@@ -133,8 +134,9 @@ def draw_game_over_screen():
 
 
 def return_to_menu():
-    global currentScreen
+    global currentScreen, quiz
     currentScreen = MENU
+    quiz.reset()
 
 
 def draw_win_screen():
@@ -199,6 +201,7 @@ def next_question():
         currentScreen = QUIZ
     else:
         currentScreen = WIN_SCREEN
+        clock.schedule_unique(return_to_menu, 5)
 
 
 def draw_text(text, position, colour='white', fontsize=30):

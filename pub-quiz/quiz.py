@@ -14,7 +14,6 @@ class Quiz:
         self.score = 0
         self.currentCategory = ''
         self.currentQuestion = 0
-        self.score = 0
         self.givenAnswer = None
         self.tryAgainUsed = False
         self.time_remaining = QUESTION_TIME_LIMIT
@@ -23,12 +22,10 @@ class Quiz:
     def load_questions(self):
         questions = {}
         for filename in os.listdir('questions'):
-            print(filename)
             if filename.endswith('.csv'):
                 with open('questions/' + filename) as csvfile:
                     category_questions = []
                     rows = csv.reader(csvfile)
-                    print(rows)
                     for row in rows:
                         category_questions.append(Question(row[0], row[1], row[2], row[3], row[4], row[5]))
                     category = filename.replace('-', ' ').replace('.csv', '').title()
@@ -37,6 +34,17 @@ class Quiz:
                     round_questions.sort(key=lambda q: q.difficulty)
                     questions[category] = round_questions
         return questions
+
+    def reset(self):
+        self.questions = self.load_questions()
+        self.categories = [k for k in self.questions.keys()]
+        self.score = 0
+        self.currentCategory = ''
+        self.currentQuestion = 0
+        self.givenAnswer = None
+        self.tryAgainUsed = False
+        self.time_remaining = QUESTION_TIME_LIMIT
+        self.timer_running = False
 
     def get_questions(self):
         return self.questions[self.currentCategory]
