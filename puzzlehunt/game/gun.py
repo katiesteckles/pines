@@ -1,5 +1,6 @@
 import os, sys
 import pygame
+import duckhunt
 
 class Gun(object):
     def __init__(self, registry):
@@ -15,7 +16,9 @@ class Gun(object):
     def reloadIt(self):
         self.rounds = 3
 
-    def moveCrossHairs(self, pos):
+    def moveCrossHairs(self):
+        pos = duckhunt.SCREEN_WIDTH * (1+duckhunt.wii.x) / 2.0, duckhunt.SCREEN_HEIGHT * (1+duckhunt.wii.y) / 2.0
+        print duckhunt.wii.x
         xOffset = self.mouseImg.get_width() / 2
         yOffset = self.mouseImg.get_height() / 2
         x, y = pos

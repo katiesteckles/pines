@@ -4,6 +4,7 @@ import sounds
 from registry import adjpos, adjrect, adjwidth, adjheight
 from gun import Gun
 from duck import Duck
+import duckhunt
 
 DOG_POSITION = adjpos (250, 350)
 DOG_FRAME = adjpos (122, 110)
@@ -191,12 +192,12 @@ class PlayState(BaseState):
         self.dogdy = 5
 
     def execute(self, event):
-        if event.type == pygame.MOUSEMOTION:
-            self.gun.moveCrossHairs(event.pos)
-        elif event.type == pygame.MOUSEBUTTONDOWN:
+        self.gun.moveCrossHairs()
+        if event.type == pygame.MOUSEBUTTONDOWN:
             hasFired = self.gun.shoot()
             for duck in self.ducks:
-                if hasFired and duck.isShot(event.pos):
+                pos = duckhunt.SCREEN_WIDTH * (1+duckhunt.wii.x) / 2.0, duckhunt.SCREEN_HEIGHT * (1+duckhunt.wii.y) / 2.0
+                if hasFired and duck.isShot(pos):
                     self.registry.set('score', self.registry.get('score') + 10)
                     self.hitDucks[self.hitDuckIndex] = True
                     self.hitDuckIndex += 1
