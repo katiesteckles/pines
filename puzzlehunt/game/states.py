@@ -192,11 +192,10 @@ class PlayState(BaseState):
         self.dogdy = 5
 
     def execute(self, event):
-        self.gun.moveCrossHairs()
         if event.type == pygame.MOUSEBUTTONDOWN:
             hasFired = self.gun.shoot()
             for duck in self.ducks:
-                pos = duckhunt.SCREEN_WIDTH * (1+duckhunt.wii.x) / 2.0, duckhunt.SCREEN_HEIGHT * (1+duckhunt.wii.y) / 2.0
+                pos = duckhunt.SCREEN_WIDTH * (1+self.gun.wii.x) / 2.0, duckhunt.SCREEN_HEIGHT * (1+self.gun.wii.y) / 2.0
                 if hasFired and duck.isShot(pos):
                     self.registry.set('score', self.registry.get('score') + 10)
                     self.hitDucks[self.hitDuckIndex] = True
@@ -205,6 +204,7 @@ class PlayState(BaseState):
                      duck.flyOff = True
 
     def update(self):
+        self.gun.moveCrossHairs()
         timer = int(time.time())
 
         # Don't update anything if running dog sequences

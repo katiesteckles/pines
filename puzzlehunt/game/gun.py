@@ -1,6 +1,9 @@
 import os, sys
 import pygame
-import duckhunt
+import evdevreader
+from game.registry import adjpos
+
+SCREEN_WIDTH, SCREEN_HEIGHT = adjpos (800, 500)
 
 class Gun(object):
     def __init__(self, registry):
@@ -8,6 +11,7 @@ class Gun(object):
         self.rounds = 3
         self.mousePos = (0,0) # Starting postion
         self.mouseImg = pygame.image.load(os.path.join('media', 'crosshairs.png'))
+        self.wii=evdevreader.EvDevReader("/dev/input/event4")
 
     def render(self):
         surface = self.registry.get('surface')
@@ -17,8 +21,8 @@ class Gun(object):
         self.rounds = 3
 
     def moveCrossHairs(self):
-        pos = duckhunt.SCREEN_WIDTH * (1+duckhunt.wii.x) / 2.0, duckhunt.SCREEN_HEIGHT * (1+duckhunt.wii.y) / 2.0
-        print duckhunt.wii.x
+        self.wii.consume_all()
+        pos = SCREEN_WIDTH * (1+self.wii.x) / 2.0, SCREEN_HEIGHT * (1+self.wii.y) / 2.0
         xOffset = self.mouseImg.get_width() / 2
         yOffset = self.mouseImg.get_height() / 2
         x, y = pos

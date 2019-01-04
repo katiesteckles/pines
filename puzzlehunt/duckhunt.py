@@ -1,7 +1,6 @@
 import os, sys
 import pygame
 import pygame.transform
-import evdevreader
 from game.registry import adjpos, adjrect, adjwidth, adjheight
 
 # Game parameters
@@ -15,7 +14,6 @@ pygame.mixer.pre_init(44100, -16, 2, 1024)
 pygame.init()
 pygame.display.set_caption(TITLE)
 pygame.mouse.set_visible(False)
-wii=evdevreader.EvDevReader("/dev/input/event4")
 
 import game.driver
 
@@ -59,7 +57,6 @@ class Game(object):
         while (self.running):
             for event in pygame.event.get():
                 self.handleEvent(event)
-            wii.consume_all()
             self.loop()
             self.render()
 
