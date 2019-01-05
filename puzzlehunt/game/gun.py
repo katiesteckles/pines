@@ -20,6 +20,14 @@ class Gun(object):
     def reloadIt(self):
         self.rounds = 3
 
+    def has_pulled_trigger(self):
+        self.wii.consume_all()
+        if self.wii.button > 0:
+            self.wii.button = 0
+            return True
+        else:
+            return False
+
     def moveCrossHairs(self):
         self.wii.consume_all()
         pos = SCREEN_WIDTH * (1+self.wii.x) / 2.0, SCREEN_HEIGHT * (1+self.wii.y) / 2.0
