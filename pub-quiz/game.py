@@ -1,4 +1,4 @@
-gifrom quiz import Quiz
+from quiz import Quiz
 from config import QUESTION_TIME_LIMIT
 
 WIDTH = 800
