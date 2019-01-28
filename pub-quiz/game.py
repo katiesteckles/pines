@@ -1,5 +1,5 @@
 from quiz import Quiz
-from config import QUESTION_TIME_LIMIT
+from config import QUESTION_TIME_LIMIT, NUMBER_OF_QUESTIONS_IN_ROUND
 
 WIDTH = 800
 HEIGHT = 600
@@ -126,9 +126,10 @@ def draw_answer_screen():
 
 
 def draw_score():
-    draw_text('Score: ' + str(quiz.score), (540, 400), 'black')
-
-
+    draw_category('Questions', (570, 380), 'black')
+    draw_category('remaining:', (570, 400), 'black')
+    draw_text(str(NUMBER_OF_QUESTIONS_IN_ROUND - quiz.score), (730, 380), 'black')
+ 
 def draw_game_over_screen():
     gameoverbg.draw()
 
