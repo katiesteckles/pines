@@ -191,20 +191,30 @@ class PlayState(BaseState):
         self.dogPosition = DOG_REPORT_POSITION
         self.dogdy = 5
 
-    def execute(self, event):
+    # def execute(self, event):
+    #     if event.type == pygame.MOUSEBUTTONDOWN:
+    #         hasFired = self.gun.shoot()
+    #         for duck in self.ducks:
+    #             pos = duckhunt.SCREEN_WIDTH * (1+self.gun.wii.x) / 2.0, duckhunt.SCREEN_HEIGHT * (1+self.gun.wii.y) / 2.0
+    #             if hasFired and duck.isShot(pos):
+    #                 self.registry.set('score', self.registry.get('score') + 10)
+    #                 self.hitDucks[self.hitDuckIndex] = True
+    #                 self.hitDuckIndex += 1
+    #             elif not duck.isDead and self.gun.rounds <= 0:
+    #                  duck.flyOff = True
+
+    def update(self):
         self.gun.moveCrossHairs()
-        if event.type == pygame.MOUSEBUTTONDOWN:
+        if self.gun.has_pulled_trigger():
             hasFired = self.gun.shoot()
             for duck in self.ducks:
-                pos = duckhunt.SCREEN_WIDTH * (1+duckhunt.wii.x) / 2.0, duckhunt.SCREEN_HEIGHT * (1+duckhunt.wii.y) / 2.0
+                pos = duckhunt.SCREEN_WIDTH * (1+self.gun.wii.x) / 2.0, duckhunt.SCREEN_HEIGHT * (1+self.gun.wii.y) / 2.0
                 if hasFired and duck.isShot(pos):
                     self.registry.set('score', self.registry.get('score') + 10)
                     self.hitDucks[self.hitDuckIndex] = True
                     self.hitDuckIndex += 1
                 elif not duck.isDead and self.gun.rounds <= 0:
                      duck.flyOff = True
-
-    def update(self):
         timer = int(time.time())
 
         # Don't update anything if running dog sequences
