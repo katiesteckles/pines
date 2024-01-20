@@ -376,14 +376,14 @@ class Player(GravityActor):
                 game.play_sound("blow", 4)
                 self.fire_timer = 20
 
-            if keyboard.up and self.vel_y == 0 and self.landed:
+            if keyboard.K_b and self.vel_y == 0 and self.landed:
                 # Jump
                 self.vel_y = -16
                 self.landed = False
                 game.play_sound("jump")
 
         # Holding down space causes the current orb (if there is one) to be blown further
-        if keyboard.space:
+        if keyboard.K_a:
             if self.blowing_orb:
                 # Increase blown distance up to a maximum of 120
                 self.blowing_orb.blown_frames += 4
@@ -693,7 +693,7 @@ space_down = False
 # Has the space bar just been pressed? i.e. gone from not being pressed, to being pressed
 def space_pressed():
     global space_down
-    if keyboard.space:
+    if keyboard.K_a:
         if space_down:
             # Space was down previous frame, and is still down
             return False
