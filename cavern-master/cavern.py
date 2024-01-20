@@ -763,8 +763,8 @@ def draw():
 
 # Set up sound system and start music
 try:
-    pygame.mixer.quit()
-    pygame.mixer.init(44100, -16, 2, 1024)
+    #pygame.mixer.quit()
+    #pygame.mixer.init(44100, -16, 2, 1024)
 
     music.play("theme")
     music.set_volume(0.3)
